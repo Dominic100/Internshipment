@@ -1,0 +1,614 @@
+{
+  "ai": [
+    {
+      "question": "What is the primary limitation of traditional rule-based expert systems?",
+      "options": [
+        "Inability to handle uncertainty",
+        "Limited computational power",
+        "Lack of scalability",
+        "Difficulty in knowledge representation"
+      ],
+      "answer": "Inability to handle uncertainty"
+    },
+    {
+      "question": "Which technique in reinforcement learning aims to estimate the value function directly without explicitly learning a policy?",
+      "options": [
+        "Q-Learning",
+        "Actor-Critic",
+        "Deep Q-Networks (DQN)",
+        "Temporal Difference (TD) Learning"
+      ],
+      "answer": "Temporal Difference (TD) Learning"
+    },
+    {
+      "question": "In natural language processing (NLP), which technique is used to convert words into their base or root form?",
+      "options": [
+        "Tokenization",
+        "Lemmatization",
+        "Stemming",
+        "Part-of-speech tagging"
+      ],
+      "answer": "Lemmatization"
+    },
+    {
+      "question": "Which neural network architecture is specifically designed to process sequential data, such as time series or natural language?",
+      "options": [
+        "Convolutional Neural Network (CNN)",
+        "Recurrent Neural Network (RNN)",
+        "Long Short-Term Memory (LSTM)",
+        "Generative Adversarial Network (GAN)"
+      ],
+      "answer": "Long Short-Term Memory (LSTM)"
+    },
+    {
+      "question": "What is the primary objective of the A* algorithm in search and optimization?",
+      "options": [
+        "Minimize the number of explored nodes",
+        "Maximize the utility function",
+        "Find the shortest path in a graph",
+        "Minimize both path cost and heuristic cost"
+      ],
+      "answer": "Minimize both path cost and heuristic cost"
+    },
+    {
+      "question": "Which of the following is a drawback of genetic algorithms?",
+      "options": [
+        "Lack of global optimization capability",
+        "Susceptibility to premature convergence",
+        "Limited application in combinatorial optimization problems",
+        "Inability to handle nonlinear optimization tasks"
+      ],
+      "answer": "Susceptibility to premature convergence"
+    },
+    {
+      "question": "What is the key difference between supervised learning and unsupervised learning?",
+      "options": [
+        "Supervised learning requires labeled data, while unsupervised learning does not.",
+        "Unsupervised learning requires labeled data, while supervised learning does not.",
+        "Supervised learning aims at classification tasks, while unsupervised learning focuses on clustering.",
+        "Unsupervised learning requires feedback from an external agent, while supervised learning does not."
+      ],
+      "answer": "upervised learning requires labeled data, while unsupervised learning does not."
+    },
+    {
+      "question": "Which technique is used to mitigate the problem of vanishing gradients in deep neural networks?",
+      "options": [
+        "Rectified Linear Unit (ReLU)",
+        "Gradient clipping",
+        "Batch normalization",
+        "Dropout regularization"
+      ],
+      "answer": "Batch normalization"
+    },
+    {
+      "question": "What is the primary advantage of using ensemble learning methods such as random forests or boosting?",
+      "options": [
+        "Improved generalization and robustness",
+        "Reduced training time",
+        "Simplified model interpretation",
+        "Elimination of overfitting"
+      ],
+      "answer": " Improved generalization and robustness"
+    },
+    {
+      "question": "In Bayesian networks, what does a directed edge between two nodes represent?",
+      "options": [
+        "Correlation between variables",
+        "Causal relationship between variables",
+        "Mutual exclusivity between variables",
+        "Conditional independence between variables"
+      ],
+      "answer": "Causal relationship between variables"
+    }
+  ],
+  "ml": [
+    {
+      "question": "Which of the following algorithms is primarily used for anomaly detection in large datasets?",
+      "options": [
+        "Random Forest",
+        "Isolation Forest",
+        "K-Means Clustering",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In reinforcement learning, what does the term 'exploration-exploitation dilemma' refer to?",
+      "options": [
+        "Balancing the trade-off between exploration of new actions and exploitation of known actions",
+        "Choosing the best action without exploring other possibilities",
+        "Maximizing rewards at the expense of exploration",
+        "Ignoring exploration to focus solely on exploitation"
+      ],
+      "answer": "Balancing the trade-off between exploration of new actions and exploitation of known actions"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To randomly drop neurons during training to prevent overfitting",
+        "To increase the number of neurons in hidden layers",
+        "To decrease the learning rate during training",
+        "To reduce computational complexity"
+      ],
+      "answer": "To randomly drop neurons during training to prevent overfitting"
+    },
+    {
+      "question": "Which evaluation metric is most suitable for imbalanced classification problems?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "F1-score",
+        "Mean Squared Error"
+      ],
+      "answer": "F1-score"
+    },
+    {
+      "question": "Which of the following is NOT a kernel function used in Support Vector Machines (SVM)?",
+      "options": [
+        "Linear",
+        "Polynomial",
+        "Exponential",
+        "Radial Basis Function (RBF)"
+      ],
+      "answer": "Exponential"
+    },
+    {
+      "question": "What does the term 'curse of dimensionality' refer to in machine learning?",
+      "options": [
+        "High-dimensional datasets are easier to process than low-dimensional ones.",
+        "High-dimensional datasets require less computational resources.",
+        "As the number of dimensions increases, the volume of the space increases exponentially, leading to data sparsity.",
+        "Adding more features always improves the model's performance."
+      ],
+      "answer": "As the number of dimensions increases, the volume of the space increases exponentially, leading to data sparsity."
+    },
+    {
+      "question": "Which ensemble method builds multiple models sequentially, where each new model corrects the errors of the previous one?",
+      "options": [
+        "Bagging",
+        "Boosting",
+        "Stacking",
+        "Random Forest"
+      ],
+      "answer": "Boosting"
+    },
+    {
+      "question": "In unsupervised learning, what is the purpose of dimensionality reduction techniques like Principal Component Analysis (PCA)?",
+      "options": [
+        "To reduce the number of features while preserving most of the variability in the data",
+        "To increase the number of features for better model performance",
+        "To create new features based on existing ones",
+        "To remove outliers from the dataset"
+      ],
+      "answer": "To reduce the number of features while preserving most of the variability in the data"
+    },
+    {
+      "question": "What is the primary objective of the Adam optimization algorithm in deep learning?",
+      "options": [
+        "To accelerate gradient descent convergence",
+        "To prevent overfitting by regularizing the weights",
+        "To compute the gradient efficiently",
+        "To adaptively adjust the learning rate during training"
+      ],
+      "answer": "To adaptively adjust the learning rate during training"
+    },
+    {
+      "question": "Which of the following techniques is used to handle missing data in a dataset?",
+      "options": [
+        "Data normalization",
+        "Data standardization",
+        "Imputation",
+        "Feature scaling"
+      ],
+      "answer": "Imputation"
+    }
+  ],
+  "ds": [
+    {
+      "question": "Which algorithm is specifically designed for handling imbalanced datasets by generating synthetic samples of the minority class?",
+      "options": [
+        "K-nearest neighbors (KNN)",
+        "Random Forest",
+        "SMOTE (Synthetic Minority Over-sampling Technique)",
+        "Principal Component Analysis (PCA)"
+      ],
+      "answer": "SMOTE (Synthetic Minority Over-sampling Technique)"
+    },
+    {
+      "question": "What is the primary advantage of using recurrent neural networks (RNNs) over traditional feedforward neural networks?",
+      "options": [
+        "Ability to handle sequential data",
+        "Faster training time",
+        "Better performance on small datasets",
+        "Simplicity of architecture"
+      ],
+      "answer": "Ability to handle sequential data"
+    },
+    {
+      "question": "What is the purpose of LDA (Linear Discriminant Analysis) in dimensionality reduction?",
+      "options": [
+        "To maximize the variance between classes",
+        "To maximize the variance within classes",
+        "To minimize the variance between classes",
+        "To minimize the variance within classes"
+      ],
+      "answer": "To maximize the variance between classes"
+    },
+    {
+      "question": "What is the term used to describe the process of transforming text data into a numerical format suitable for machine learning algorithms?",
+      "options": [
+        "Tokenization",
+        "Embedding",
+        "Feature extraction",
+        "Normalization"
+      ],
+      "answer": "Feature extraction"
+    },
+    {
+      "question": "In unsupervised learning, which algorithm is commonly used for outlier detection based on density estimation?",
+      "options": [
+        "K-means clustering",
+        "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
+        "PCA (Principal Component Analysis)",
+        "Apriori algorithm"
+      ],
+      "answer": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)"
+    },
+    {
+      "question": "What is the main purpose of the Expectation-Maximization (EM) algorithm in unsupervised learning?",
+      "options": [
+        "To maximize the likelihood function",
+        "To minimize the cost function",
+        "To find the optimal decision boundary",
+        "To estimate parameters of a probabilistic model"
+      ],
+      "answer": "To estimate parameters of a probabilistic model"
+    },
+    {
+      "question": "What is the term used to describe the process of converting categorical variables into a numerical format in machine learning?",
+      "options": [
+        "One-hot encoding",
+        "Label encoding",
+        "Ordinal encoding",
+        "Binary encoding"
+      ],
+      "answer": "One-hot encoding"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of multi-class classification models?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "F1-score",
+        "Mean Squared Error (MSE)"
+      ],
+      "answer": "F1-score"
+    },
+    {
+      "question": "What is the primary advantage of using ensemble learning techniques such as AdaBoost?",
+      "options": [
+        "Robustness to overfitting",
+        "Ability to handle missing data",
+        "Interpretability of results",
+        "Simplicity of implementation"
+      ],
+      "answer": "Robustness to overfitting"
+    },
+    {
+      "question": "What does the term 'curse of dimensionality' refer to in machine learning?",
+      "options": [
+        "The computational cost increases exponentially with the number of features",
+        "The model's performance deteriorates as the number of features increases",
+        "The difficulty of visualizing high-dimensional data",
+        "The imbalance between the number of samples and features in the dataset"
+      ],
+      "answer": "The computational cost increases exponentially with the number of features"
+    }
+  ],
+  "app_dev": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the 'manifest' file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the 'ViewModel' class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the 'SharedPreferences' class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle the app's network requests"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "Which of the following is a valid way to pass data between activities in Android?",
+      "options": [
+        "Using static variables",
+        "Using intents with extras",
+        "Using the Singleton pattern",
+        "Using the Observer pattern"
+      ],
+      "answer": "Using intents with extras"
+    },
+    {
+      "question": "What is the purpose of the 'ActionBar' in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To provide consistent navigation and branding across the app",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To provide consistent navigation and branding across the app"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of notification in Android?",
+      "options": [
+        "Toast",
+        "Notification Channel",
+        "Snackbar",
+        "Dialog"
+      ],
+      "answer": "Snackbar"
+    }
+  ],
+  "game_dev": [
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To handle user input",
+        "To render graphics to the screen",
+        "To control the flow of the game and update game logic",
+        "To manage game assets such as images and sounds"
+      ],
+      "answer": "To control the flow of the game and update game logic"
+    },
+    {
+      "question": "Which of the following is NOT a common collision detection technique used in game development?",
+      "options": [
+        "AABB collision detection",
+        "SAT collision detection",
+        "Raycasting",
+        "Serialization"
+      ],
+      "answer": "Serialization"
+    },
+    {
+      "question": "What does the term 'sprite' refer to in game development?",
+      "options": [
+        "A type of lighting effect",
+        "A 3D model",
+        "A 2D image or animation used in the game",
+        "A physics component"
+      ],
+      "answer": "A 2D image or animation used in the game"
+    },
+    {
+      "question": "Which of the following is a key component of the Entity-Component-System (ECS) architecture used in game development?",
+      "options": [
+        "Game loop",
+        "Scene graph",
+        "Asset manager",
+        "Component"
+      ],
+      "answer": "Component"
+    },
+    {
+      "question": "What is the purpose of delta time in game development?",
+      "options": [
+        "To measure the time it takes for a projectile to reach its target",
+        "To synchronize audio and visual effects",
+        "To measure the difference in time between consecutive frames",
+        "To control the difficulty level of the game"
+      ],
+      "answer": "To measure the difference in time between consecutive frames"
+    },
+    {
+      "question": "Which of the following is NOT a common method for managing game state in game development?",
+      "options": [
+        "Finite State Machine (FSM)",
+        "Stack-based state management",
+        "Observer pattern",
+        "Singleton pattern"
+      ],
+      "answer": "Observer pattern"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of the game's user interface",
+        "To manage the game's navigation between screens",
+        "To define the appearance of objects in the game world",
+        "To handle network communication between players"
+      ],
+      "answer": "To define the appearance of objects in the game world"
+    },
+    {
+      "question": "Which of the following is a common technique for optimizing rendering performance in game development?",
+      "options": [
+        "Level of Detail (LOD)",
+        "Observer pattern",
+        "Singleton pattern",
+        "Recursive subdivision"
+      ],
+      "answer": "Level of Detail (LOD)"
+    },
+    {
+      "question": "What is the purpose of collision resolution in game development?",
+      "options": [
+        "To handle user input",
+        "To synchronize audio and visual effects",
+        "To resolve conflicts between overlapping game objects",
+        "To control the flow of the game and update game logic"
+      ],
+      "answer": "To resolve conflicts between overlapping game objects"
+    },
+    {
+      "question": "What is the purpose of frustum culling in game development?",
+      "options": [
+        "To optimize rendering performance by only rendering objects within the camera's field of view",
+        "To manage audio effects based on the player's location",
+        "To control the difficulty level of the game",
+        "To synchronize network communication between players"
+      ],
+      "answer": "To optimize rendering performance by only rendering objects within the camera's field of view"
+    }
+  ],
+  "web_dev": [
+    {
+      "question": "Which of the following HTTP methods is idempotent, meaning that performing the same request multiple times will have the same effect as performing it once?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "answer": "PUT"
+    },
+    {
+      "question": "What is the purpose of a CSS preprocessor like Sass or Less?",
+      "options": [
+        "To compile JavaScript code",
+        "To optimize images for the web",
+        "To enhance the performance of web servers",
+        "To simplify and extend CSS with variables, mixins, and functions"
+      ],
+      "answer": "To simplify and extend CSS with variables, mixins, and functions"
+    },
+    {
+      "question": "Which of the following is NOT a valid way to include JavaScript code in an HTML document?",
+      "options": [
+        "Inline script tag",
+        "External script file linked with the src attribute",
+        "Using the <script> element with type=\"module\"",
+        "Including JavaScript directly within the CSS file"
+      ],
+      "answer": "Including JavaScript directly within the CSS file"
+    },
+    {
+      "question": "What is the purpose of the \"viewport\" meta tag in HTML?",
+      "options": [
+        "To specify the author of the webpage",
+        "To define the structure of the webpage",
+        "To control the layout and scaling of the viewport on mobile browsers",
+        "To provide metadata about the webpage for search engines"
+      ],
+      "answer": "To control the layout and scaling of the viewport on mobile browsers"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTTP status code?",
+      "options": [
+        "200 OK",
+        "404 Not Found",
+        "303 See Other",
+        "500 Internal Server Error"
+      ],
+      "answer": "303 See Other"
+    },
+    {
+      "question": "What is the purpose of the \"box-sizing\" CSS property?",
+      "options": [
+        "To specify the color of the border around an element",
+        "To control the display of an element as a block or inline",
+        "To include or exclude an element's padding and border from its total width and height",
+        "To specify the font family used for text within an element"
+      ],
+      "answer": "To include or exclude an element's padding and border from its total width and height"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of CSS selector?",
+      "options": [
+        "Class selector",
+        "ID selector",
+        "Tag selector",
+        "Range selector"
+      ],
+      "answer": "Range selector"
+    },
+    {
+      "question": "What is the purpose of the \"defer\" attribute in the <script> element?",
+      "options": [
+        "To indicate that the script should be executed asynchronously",
+        "To delay the loading of the script until after the document has been parsed",
+        "To specify the character encoding of the script file",
+        "To disable the caching of the script file"
+      ],
+      "answer": "To delay the loading of the script until after the document has been parsed"
+    },
+    {
+      "question": "Which of the following is a valid way to define a CSS variable?",
+      "options": [
+        "@variable { color: blue; }",
+        "$variable: blue;",
+        "--variable: blue;",
+        "#variable = blue;"
+      ],
+      "answer": "--variable: blue;"
+    },
+    {
+      "question": "What is the purpose of the \"aria-\" attributes in HTML?",
+      "options": [
+        "To define custom animations for elements",
+        "To specify alternative text for images",
+        "To provide additional information about the accessibility and semantics of elements for screen readers and other assistive technologies",
+        "To control the layout of elements within a webpage"
+      ],
+      "answer": "To provide additional information about the accessibility and semantics of elements for screen readers and other assistive technologies"
+    }
+  ]
+}

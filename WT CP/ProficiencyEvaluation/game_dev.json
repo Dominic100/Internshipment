@@ -1,0 +1,410 @@
+{
+  "hard": [
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To handle user input",
+        "To render graphics to the screen",
+        "To control the flow of the game and update game logic",
+        "To manage game assets such as images and sounds"
+      ],
+      "answer": "To control the flow of the game and update game logic"
+    },
+    {
+      "question": "Which of the following is NOT a common collision detection technique used in game development?",
+      "options": [
+        "AABB collision detection",
+        "SAT collision detection",
+        "Raycasting",
+        "Serialization"
+      ],
+      "answer": "Serialization"
+    },
+    {
+      "question": "What does the term 'sprite' refer to in game development?",
+      "options": [
+        "A type of lighting effect",
+        "A 3D model",
+        "A 2D image or animation used in the game",
+        "A physics component"
+      ],
+      "answer": "A 2D image or animation used in the game"
+    },
+    {
+      "question": "Which of the following is a key component of the Entity-Component-System (ECS) architecture used in game development?",
+      "options": [
+        "Game loop",
+        "Scene graph",
+        "Asset manager",
+        "Component"
+      ],
+      "answer": "Component"
+    },
+    {
+      "question": "What is the purpose of delta time in game development?",
+      "options": [
+        "To measure the time it takes for a projectile to reach its target",
+        "To synchronize audio and visual effects",
+        "To measure the difference in time between consecutive frames",
+        "To control the difficulty level of the game"
+      ],
+      "answer": "To measure the difference in time between consecutive frames"
+    },
+    {
+      "question": "Which of the following is NOT a common method for managing game state in game development?",
+      "options": [
+        "Finite State Machine (FSM)",
+        "Stack-based state management",
+        "Observer pattern",
+        "Singleton pattern"
+      ],
+      "answer": "Observer pattern"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of the game's user interface",
+        "To manage the game's navigation between screens",
+        "To define the appearance of objects in the game world",
+        "To handle network communication between players"
+      ],
+      "answer": "To define the appearance of objects in the game world"
+    },
+    {
+      "question": "Which of the following is a common technique for optimizing rendering performance in game development?",
+      "options": [
+        "Level of Detail (LOD)",
+        "Observer pattern",
+        "Singleton pattern",
+        "Recursive subdivision"
+      ],
+      "answer": "Level of Detail (LOD)"
+    },
+    {
+      "question": "What is the purpose of collision resolution in game development?",
+      "options": [
+        "To handle user input",
+        "To synchronize audio and visual effects",
+        "To resolve conflicts between overlapping game objects",
+        "To control the flow of the game and update game logic"
+      ],
+      "answer": "To resolve conflicts between overlapping game objects"
+    },
+    {
+      "question": "What is the purpose of frustum culling in game development?",
+      "options": [
+        "To optimize rendering performance by only rendering objects within the camera's field of view",
+        "To manage audio effects based on the player's location",
+        "To control the difficulty level of the game",
+        "To synchronize network communication between players"
+      ],
+      "answer": "To optimize rendering performance by only rendering objects within the camera's field of view"
+    }
+  ],
+  "medium_hard": [
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To handle user input",
+        "To render graphics to the screen",
+        "To control the flow of the game and update game logic",
+        "To manage game assets such as images and sounds"
+      ],
+      "answer": "To control the flow of the game and update game logic"
+    },
+    {
+      "question": "Which of the following is NOT a common collision detection technique used in game development?",
+      "options": [
+        "AABB collision detection",
+        "SAT collision detection",
+        "Raycasting",
+        "Serialization"
+      ],
+      "answer": "Serialization"
+    },
+    {
+      "question": "What does the term 'sprite' refer to in game development?",
+      "options": [
+        "A type of lighting effect",
+        "A 3D model",
+        "A 2D image or animation used in the game",
+        "A physics component"
+      ],
+      "answer": "A 2D image or animation used in the game"
+    },
+    {
+      "question": "Which of the following is a key component of the Entity-Component-System (ECS) architecture used in game development?",
+      "options": [
+        "Game loop",
+        "Scene graph",
+        "Asset manager",
+        "Component"
+      ],
+      "answer": "Component"
+    },
+    {
+      "question": "What is the purpose of delta time in game development?",
+      "options": [
+        "To measure the time it takes for a projectile to reach its target",
+        "To synchronize audio and visual effects",
+        "To measure the difference in time between consecutive frames",
+        "To control the difficulty level of the game"
+      ],
+      "answer": "To measure the difference in time between consecutive frames"
+    },
+    {
+      "question": "Which of the following is NOT a common method for managing game state in game development?",
+      "options": [
+        "Finite State Machine (FSM)",
+        "Stack-based state management",
+        "Observer pattern",
+        "Singleton pattern"
+      ],
+      "answer": "Observer pattern"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of the game's user interface",
+        "To manage the game's navigation between screens",
+        "To define the appearance of objects in the game world",
+        "To handle network communication between players"
+      ],
+      "answer": "To define the appearance of objects in the game world"
+    },
+    {
+      "question": "Which of the following is a common technique for optimizing rendering performance in game development?",
+      "options": [
+        "Level of Detail (LOD)",
+        "Observer pattern",
+        "Singleton pattern",
+        "Recursive subdivision"
+      ],
+      "answer": "Level of Detail (LOD)"
+    },
+    {
+      "question": "What is the purpose of collision resolution in game development?",
+      "options": [
+        "To handle user input",
+        "To synchronize audio and visual effects",
+        "To resolve conflicts between overlapping game objects",
+        "To control the flow of the game and update game logic"
+      ],
+      "answer": "To resolve conflicts between overlapping game objects"
+    },
+    {
+      "question": "What is the purpose of frustum culling in game development?",
+      "options": [
+        "To optimize rendering performance by only rendering objects within the camera's field of view",
+        "To manage audio effects based on the player's location",
+        "To control the difficulty level of the game",
+        "To synchronize network communication between players"
+      ],
+      "answer": "To optimize rendering performance by only rendering objects within the camera's field of view"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To handle user input",
+        "To render graphics to the screen",
+        "To control the flow of the game and update game logic",
+        "To manage game assets such as images and sounds"
+      ],
+      "answer": "To control the flow of the game and update game logic"
+    },
+    {
+      "question": "Which of the following is NOT a common collision detection technique used in game development?",
+      "options": [
+        "AABB collision detection",
+        "SAT collision detection",
+        "Raycasting",
+        "Serialization"
+      ],
+      "answer": "Serialization"
+    },
+    {
+      "question": "What does the term 'sprite' refer to in game development?",
+      "options": [
+        "A type of lighting effect",
+        "A 3D model",
+        "A 2D image or animation used in the game",
+        "A physics component"
+      ],
+      "answer": "A 2D image or animation used in the game"
+    },
+    {
+      "question": "Which of the following is a key component of the Entity-Component-System (ECS) architecture used in game development?",
+      "options": [
+        "Game loop",
+        "Scene graph",
+        "Asset manager",
+        "Component"
+      ],
+      "answer": "Component"
+    },
+    {
+      "question": "What is the purpose of delta time in game development?",
+      "options": [
+        "To measure the time it takes for a projectile to reach its target",
+        "To synchronize audio and visual effects",
+        "To measure the difference in time between consecutive frames",
+        "To control the difficulty level of the game"
+      ],
+      "answer": "To measure the difference in time between consecutive frames"
+    },
+    {
+      "question": "Which of the following is NOT a common method for managing game state in game development?",
+      "options": [
+        "Finite State Machine (FSM)",
+        "Stack-based state management",
+        "Observer pattern",
+        "Singleton pattern"
+      ],
+      "answer": "Observer pattern"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of the game's user interface",
+        "To manage the game's navigation between screens",
+        "To define the appearance of objects in the game world",
+        "To handle network communication between players"
+      ],
+      "answer": "To define the appearance of objects in the game world"
+    },
+    {
+      "question": "Which of the following is a common technique for optimizing rendering performance in game development?",
+      "options": [
+        "Level of Detail (LOD)",
+        "Observer pattern",
+        "Singleton pattern",
+        "Recursive subdivision"
+      ],
+      "answer": "Level of Detail (LOD)"
+    },
+    {
+      "question": "What is the purpose of collision resolution in game development?",
+      "options": [
+        "To handle user input",
+        "To synchronize audio and visual effects",
+        "To resolve conflicts between overlapping game objects",
+        "To control the flow of the game and update game logic"
+      ],
+      "answer": "To resolve conflicts between overlapping game objects"
+    },
+    {
+      "question": "What is the purpose of frustum culling in game development?",
+      "options": [
+        "To optimize rendering performance by only rendering objects within the camera's field of view",
+        "To manage audio effects based on the player's location",
+        "To control the difficulty level of the game",
+        "To synchronize network communication between players"
+      ],
+      "answer": "To optimize rendering performance by only rendering objects within the camera's field of view"
+    }
+  ],
+  "easy": [
+    {
+      "question": "Which game engine is known for its use in creating 3D games such as Fortnite and PUBG?",
+      "options": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "CryEngine"
+      ],
+      "answer": "Unreal Engine"
+    },
+    {
+      "question": "What is the purpose of collision detection in game development?",
+      "options": [
+        "To create visual effects in the game",
+        "To handle player input",
+        "To detect when two game objects intersect in the game world",
+        "To optimize the game's performance"
+      ],
+      "answer": "To detect when two game objects intersect in the game world"
+    },
+    {
+      "question": "Which programming language is commonly used for scripting in the Unity game engine?",
+      "options": [
+        "C++",
+        "Java",
+        "Python",
+        "C#"
+      ],
+      "answer": "C#"
+    },
+    {
+      "question": "What is the purpose of a game engine in game development?",
+      "options": [
+        "To create game assets such as graphics and sounds",
+        "To manage the game's user interface",
+        "To handle player input",
+        "To provide tools and libraries for building and running games"
+      ],
+      "answer": "To provide tools and libraries for building and running games"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used technique for optimizing game performance?",
+      "options": [
+        "Level-of-Detail (LOD) rendering",
+        "Culling",
+        "Rasterization",
+        "Batching"
+      ],
+      "answer": "Rasterization"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of game objects",
+        "To handle player input",
+        "To create visual effects such as lighting and textures",
+        "To manage game physics"
+      ],
+      "answer": "To create visual effects such as lighting and textures"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used type of game camera?",
+      "options": [
+        "Orthographic camera",
+        "Perspective camera",
+        "Isometric camera",
+        "Kinematic camera"
+      ],
+      "answer": "Kinematic camera"
+    },
+    {
+      "question": "What is the purpose of the physics engine in game development?",
+      "options": [
+        "To create game assets such as graphics and sounds",
+        "To handle player input",
+        "To simulate physical interactions between game objects",
+        "To manage the game's user interface"
+      ],
+      "answer": "To simulate physical interactions between game objects"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used component in a game object?",
+      "options": [
+        "Renderer",
+        "Collider",
+        "Script",
+        "Shader"
+      ],
+      "answer": "Shader"
+    },
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To create visual effects in the game",
+        "To handle player input",
+        "To define the structure of game objects",
+        "To continuously update the game state and render frames"
+      ],
+      "answer": "To continuously update the game state and render frames"
+    }
+  ]
+}

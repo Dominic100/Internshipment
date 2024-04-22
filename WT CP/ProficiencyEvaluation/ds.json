@@ -1,0 +1,410 @@
+{
+  "hard": [
+    {
+      "question": "Which algorithm is specifically designed for handling imbalanced datasets by generating synthetic samples of the minority class?",
+      "options": [
+        "K-nearest neighbors (KNN)",
+        "Random Forest",
+        "SMOTE (Synthetic Minority Over-sampling Technique)",
+        "Principal Component Analysis (PCA)"
+      ],
+      "answer": "SMOTE (Synthetic Minority Over-sampling Technique)"
+    },
+    {
+      "question": "What is the primary advantage of using recurrent neural networks (RNNs) over traditional feedforward neural networks?",
+      "options": [
+        "Ability to handle sequential data",
+        "Faster training time",
+        "Better performance on small datasets",
+        "Simplicity of architecture"
+      ],
+      "answer": "Ability to handle sequential data"
+    },
+    {
+      "question": "What is the purpose of LDA (Linear Discriminant Analysis) in dimensionality reduction?",
+      "options": [
+        "To maximize the variance between classes",
+        "To maximize the variance within classes",
+        "To minimize the variance between classes",
+        "To minimize the variance within classes"
+      ],
+      "answer": "To maximize the variance between classes"
+    },
+    {
+      "question": "What is the term used to describe the process of transforming text data into a numerical format suitable for machine learning algorithms?",
+      "options": [
+        "Tokenization",
+        "Embedding",
+        "Feature extraction",
+        "Normalization"
+      ],
+      "answer": "Feature extraction"
+    },
+    {
+      "question": "In unsupervised learning, which algorithm is commonly used for outlier detection based on density estimation?",
+      "options": [
+        "K-means clustering",
+        "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)",
+        "PCA (Principal Component Analysis)",
+        "Apriori algorithm"
+      ],
+      "answer": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise)"
+    },
+    {
+      "question": "What is the main purpose of the Expectation-Maximization (EM) algorithm in unsupervised learning?",
+      "options": [
+        "To maximize the likelihood function",
+        "To minimize the cost function",
+        "To find the optimal decision boundary",
+        "To estimate parameters of a probabilistic model"
+      ],
+      "answer": "To estimate parameters of a probabilistic model"
+    },
+    {
+      "question": "What is the term used to describe the process of converting categorical variables into a numerical format in machine learning?",
+      "options": [
+        "One-hot encoding",
+        "Label encoding",
+        "Ordinal encoding",
+        "Binary encoding"
+      ],
+      "answer": "One-hot encoding"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of multi-class classification models?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "F1-score",
+        "Mean Squared Error (MSE)"
+      ],
+      "answer": "F1-score"
+    },
+    {
+      "question": "What is the primary advantage of using ensemble learning techniques such as AdaBoost?",
+      "options": [
+        "Robustness to overfitting",
+        "Ability to handle missing data",
+        "Interpretability of results",
+        "Simplicity of implementation"
+      ],
+      "answer": "Robustness to overfitting"
+    },
+    {
+      "question": "What does the term 'curse of dimensionality' refer to in machine learning?",
+      "options": [
+        "The computational cost increases exponentially with the number of features",
+        "The model's performance deteriorates as the number of features increases",
+        "The difficulty of visualizing high-dimensional data",
+        "The imbalance between the number of samples and features in the dataset"
+      ],
+      "answer": "The computational cost increases exponentially with the number of features"
+    }
+  ],
+  "medium_hard": [
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In natural language processing, what is the purpose of stemming?",
+      "options": [
+        "Identifying the root word of a given word",
+        "Assigning a sentiment score to text data",
+        "Tokenizing sentences into words",
+        "Extracting named entities from text data"
+      ],
+      "answer": "Identifying the root word of a given word"
+    },
+    {
+      "question": "What is the primary difference between L1 and L2 regularization?",
+      "options": [
+        "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values.",
+        "L1 regularization penalizes large coefficients more heavily than L2 regularization.",
+        "L2 regularization encourages sparsity in the coefficient values, while L1 regularization does not.",
+        "L2 regularization is only applicable to linear models, while L1 regularization can be used with any model."
+      ],
+      "answer": "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values."
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of regression models?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1-score"
+      ],
+      "answer": "Mean Absolute Error (MAE)"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which technique is commonly used for feature engineering in time-series data?",
+      "options": [
+        "Principal Component Analysis (PCA)",
+        "Lag features",
+        "One-hot encoding",
+        "Bag-of-Words representation"
+      ],
+      "answer": "Lag features"
+    },
+    {
+      "question": "What is the purpose of cross-entropy loss in classification problems?",
+      "options": [
+        "To measure the difference between probability distributions",
+        "To minimize the mean squared error between predicted and actual values",
+        "To regularize the weights of the neural network",
+        "To reduce the variance of the model"
+      ],
+      "answer": "To measure the difference between probability distributions"
+    }
+  ],
+  "medium": [
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In natural language processing, what is the purpose of stemming?",
+      "options": [
+        "Identifying the root word of a given word",
+        "Assigning a sentiment score to text data",
+        "Tokenizing sentences into words",
+        "Extracting named entities from text data"
+      ],
+      "answer": "Identifying the root word of a given word"
+    },
+    {
+      "question": "What is the primary difference between L1 and L2 regularization?",
+      "options": [
+        "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values.",
+        "L1 regularization penalizes large coefficients more heavily than L2 regularization.",
+        "L2 regularization encourages sparsity in the coefficient values, while L1 regularization does not.",
+        "L2 regularization is only applicable to linear models, while L1 regularization can be used with any model."
+      ],
+      "answer": "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values."
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of regression models?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1-score"
+      ],
+      "answer": "Mean Absolute Error (MAE)"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which technique is commonly used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the cross-entropy loss in classification problems?",
+      "options": [
+        "To measure the difference between probability distributions",
+        "To minimize the mean squared error between predicted and actual values",
+        "To regularize the weights of the neural network",
+        "To reduce the variance of the model"
+      ],
+      "answer": "To measure the difference between probability distributions"
+    }
+  ],
+  "easy": [
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In natural language processing, what is the purpose of stemming?",
+      "options": [
+        "Identifying the root word of a given word",
+        "Assigning a sentiment score to text data",
+        "Tokenizing sentences into words",
+        "Extracting named entities from text data"
+      ],
+      "answer": "Identifying the root word of a given word"
+    },
+    {
+      "question": "What is the primary difference between L1 and L2 regularization?",
+      "options": [
+        "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values.",
+        "L1 regularization penalizes large coefficients more heavily than L2 regularization.",
+        "L2 regularization encourages sparsity in the coefficient values, while L1 regularization does not.",
+        "L2 regularization is only applicable to linear models, while L1 regularization can be used with any model."
+      ],
+      "answer": "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values."
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of regression models?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1-score"
+      ],
+      "answer": "Mean Absolute Error (MAE)"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which technique is commonly used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the cross-entropy loss in classification problems?",
+      "options": [
+        "To measure the difference between probability distributions",
+        "To minimize the mean squared error between predicted and actual values",
+        "To regularize the weights of the neural network",
+        "To reduce the variance of the model"
+      ],
+      "answer": "To measure the difference between probability distributions"
+    }
+  ]
+}

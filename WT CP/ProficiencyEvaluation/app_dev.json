@@ -1,0 +1,410 @@
+{
+  "hard": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the 'manifest' file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the 'ViewModel' class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the 'SharedPreferences' class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle the app's network requests"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "Which of the following is a valid way to pass data between activities in Android?",
+      "options": [
+        "Using static variables",
+        "Using intents with extras",
+        "Using the Singleton pattern",
+        "Using the Observer pattern"
+      ],
+      "answer": "Using intents with extras"
+    },
+    {
+      "question": "What is the purpose of the 'ActionBar' in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To provide consistent navigation and branding across the app",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To provide consistent navigation and branding across the app"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of notification in Android?",
+      "options": [
+        "Toast",
+        "Notification Channel",
+        "Snackbar",
+        "Dialog"
+      ],
+      "answer": "Snackbar"
+    }
+  ],
+  "medium_hard": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the \"manifest\" file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the \"ViewModel\" class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the \"SharedPreferences\" class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle the app's network requests"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "Which of the following is a valid way to pass data between activities in Android?",
+      "options": [
+        "Using static variables",
+        "Using intents with extras",
+        "Using the Singleton pattern",
+        "Using the Observer pattern"
+      ],
+      "answer": "Using intents with extras"
+    },
+    {
+      "question": "What is the purpose of the \"ActionBar\" in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To provide consistent navigation and branding across the app",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To provide consistent navigation and branding across the app"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of notification in Android?",
+      "options": [
+        "Toast",
+        "Notification Channel",
+        "Snackbar",
+        "Dialog"
+      ],
+      "answer": "Snackbar"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the 'manifest' file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the 'ViewModel' class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the 'SharedPreferences' class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle the app's network requests"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "Which of the following is a valid way to pass data between activities in Android?",
+      "options": [
+        "Using static variables",
+        "Using intents with extras",
+        "Using the Singleton pattern",
+        "Using the Observer pattern"
+      ],
+      "answer": "Using intents with extras"
+    },
+    {
+      "question": "What is the purpose of the 'ActionBar' in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To provide consistent navigation and branding across the app",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To provide consistent navigation and branding across the app"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of notification in Android?",
+      "options": [
+        "Toast",
+        "Notification Channel",
+        "Snackbar",
+        "Dialog"
+      ],
+      "answer": "Snackbar"
+    }
+  ],
+  "easy": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the 'manifest' file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the 'ViewModel' class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the 'SharedPreferences' class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle background tasks in an Android app"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "What is the purpose of the 'RecyclerView' in Android development?",
+      "options": [
+        "To display images in a grid layout",
+        "To manage the app's navigation between screens",
+        "To efficiently display large datasets of scrollable lists",
+        "To define the structure of the app's user interface"
+      ],
+      "answer": "To efficiently display large datasets of scrollable lists"
+    },
+    {
+      "question": "Which of the following is NOT a valid permission protection level in Android?",
+      "options": [
+        "Normal",
+        "Dangerous",
+        "Signature",
+        "System"
+      ],
+      "answer": "Normal"
+    },
+    {
+      "question": "What is the purpose of the 'Intent' class in Android development?",
+      "options": [
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "ai": [
+    {
+      "question": "Which technique is commonly used to pre-process textual data by removing common words that carry little semantic meaning?",
+      "options": [
+        "Stopword removal",
+        "Stemming",
+        "Lemmatization",
+        "Tokenization"
+      ],
+      "answer": "Stopword removal"
+    },
+    {
+      "question": "In deep learning, what does the term overfitting refer to?",
+      "options": [
+        "The model performs well on the training data but poorly on unseen data.",
+        "The model fails to converge during training.",
+        "The model generalizes well to unseen data.",
+        "The model suffers from high bias."
+      ],
+      "answer": "The model performs well on the training data but poorly on unseen data."
+    },
+    {
+      "question": "Which algorithm is used to optimize the weights of a neural network by iteratively updating them based on the gradient of the loss function?",
+      "options": [
+        "Gradient Boosting",
+        "K-Means",
+        "Backpropagation",
+        "Expectation-Maximization (EM)"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which technique is used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To normalize the input data",
+        "To introduce non-linearity into the network",
+        "To reduce the dimensionality of the data",
+        "To regularize the weights of the network"
+      ],
+      "answer": "To introduce non-linearity into the network"
+    },
+    {
+      "question": "Which approach in machine learning involves mimicking the structure and function of the human brain to build intelligent systems?",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
+      ],
+      "answer": "Neural Networks"
+    },
+    {
+      "question": "Which theorem provides a formal basis for the Naive Bayes classifier by assuming independence between features?",
+      "options": [
+        "Central Limit Theorem",
+        "Bayes Theorem",
+        "Gauss-Markov Theorem",
+        "Chain Rule"
+      ],
+      "answer": "Bayes Theorem"
+    },
+    {
+      "question": "Which type of learning technique adjusts the model's parameters based on the difference between predicted and actual outcomes?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Semi-supervised Learning"
+      ],
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "What is the process of updating the model's parameters using the gradient of the loss function called in optimization?",
+      "options": [
+        "Backpropagation",
+        "Forward propagation",
+        "Gradient descent",
+        "Stochastic gradient descent"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for classification tasks and represents the ratio of correctly predicted instances to the total instances?",
+      "options": [
+        "Mean Absolute Error (MAE)",
+        "F1 Score",
+        "Root Mean Squared Error (RMSE)",
+        "Accuracy"
+      ],
+      "answer": "Accuracy"
+    }
+  ],
+  "ml": [
+    {
+      "question": "Which of the following algorithms is used for both classification and regression tasks?",
+      "options": [
+        "K-Means",
+        "Decision Trees",
+        "Linear Regression",
+        "K-Nearest Neighbors"
+      ],
+      "answer": "Decision Trees"
+    },
+    {
+      "question": "What is the main disadvantage of using the k-Nearest Neighbors (k-NN) algorithm?",
+      "options": [
+        "It is sensitive to outliers",
+        "It is not suitable for large datasets",
+        "It cannot handle missing values",
+        "It requires feature scaling"
+      ],
+      "answer": "It is not suitable for large datasets"
+    },
+    {
+      "question": "Which of the following techniques can be used to combat overfitting in neural networks?",
+      "options": [
+        "L1 regularization",
+        "Increasing the number of hidden layers",
+        "Decreasing the dropout rate",
+        "Adding noise to the training data"
+      ],
+      "answer": "L1 regularization"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To initialize the weights",
+        "To compute the gradient efficiently",
+        "To introduce non-linearity",
+        "To normalize the input data"
+      ],
+      "answer": "To introduce non-linearity"
+    },
+    {
+      "question": "Which of the following is NOT a distance metric used in k-Nearest Neighbors (k-NN)?",
+      "options": [
+        "Euclidean Distance",
+        "Manhattan Distance",
+        "Mahalanobis Distance",
+        "Pearson Correlation"
+      ],
+      "answer": "Pearson Correlation"
+    },
+    {
+      "question": "What does the term \"bias-variance trade-off\" refer to in machine learning?",
+      "options": [
+        "Balancing the model's bias and variance to minimize prediction errors",
+        "Maximizing the model's bias while minimizing variance",
+        "Minimizing the model's bias while maximizing variance",
+        "Ignoring bias and focusing solely on reducing variance"
+      ],
+      "answer": "Balancing the model's bias and variance to minimize prediction errors"
+    },
+    {
+      "question": "Which method is commonly used to handle categorical variables in a machine learning model?",
+      "options": [
+        "Label Encoding",
+        "One-Hot Encoding",
+        "Ordinal Encoding",
+        "Binary Encoding"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the inertia criterion in K-Means clustering?",
+      "options": [
+        "To measure the compactness of clusters",
+        "To compute the silhouette score",
+        "To determine the optimal number of clusters",
+        "To minimize the within-cluster sum of squares"
+      ],
+      "answer": "To minimize the within-cluster sum of squares"
+    },
+    {
+      "question": "Which of the following algorithms is a non-parametric method for regression and classification?",
+      "options": [
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision Trees",
+        "Support Vector Machines (SVM)"
+      ],
+      "answer": "Decision Trees"
+    },
+    {
+      "question": "What does the term \"ensemble learning\" refer to in machine learning?",
+      "options": [
+        "Training multiple models independently and combining their predictions",
+        "Training a single complex model on large datasets",
+        "Using only one algorithm for model training",
+        "Combining feature sets from different datasets"
+      ],
+      "answer": "Training multiple models independently and combining their predictions"
+    }
+  ],
+  "ds": [
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In natural language processing, what is the purpose of stemming?",
+      "options": [
+        "Identifying the root word of a given word",
+        "Assigning a sentiment score to text data",
+        "Tokenizing sentences into words",
+        "Extracting named entities from text data"
+      ],
+      "answer": "Identifying the root word of a given word"
+    },
+    {
+      "question": "What is the primary difference between L1 and L2 regularization?",
+      "options": [
+        "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values.",
+        "L1 regularization penalizes large coefficients more heavily than L2 regularization.",
+        "L2 regularization encourages sparsity in the coefficient values, while L1 regularization does not.",
+        "L2 regularization is only applicable to linear models, while L1 regularization can be used with any model."
+      ],
+      "answer": "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values."
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of regression models?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1-score"
+      ],
+      "answer": "Mean Absolute Error (MAE)"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which technique is commonly used for feature engineering in time-series data?",
+      "options": [
+        "Principal Component Analysis (PCA)",
+        "Lag features",
+        "One-hot encoding",
+        "Bag-of-Words representation"
+      ],
+      "answer": "Lag features"
+    },
+    {
+      "question": "What is the purpose of cross-entropy loss in classification problems?",
+      "options": [
+        "To measure the difference between probability distributions",
+        "To minimize the mean squared error between predicted and actual values",
+        "To regularize the weights of the neural network",
+        "To reduce the variance of the model"
+      ],
+      "answer": "To measure the difference between probability distributions"
+    }
+  ],
+  "app_dev": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the \"manifest\" file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the \"ViewModel\" class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the \"SharedPreferences\" class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle the app's network requests"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "Which of the following is a valid way to pass data between activities in Android?",
+      "options": [
+        "Using static variables",
+        "Using intents with extras",
+        "Using the Singleton pattern",
+        "Using the Observer pattern"
+      ],
+      "answer": "Using intents with extras"
+    },
+    {
+      "question": "What is the purpose of the \"ActionBar\" in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To provide consistent navigation and branding across the app",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To provide consistent navigation and branding across the app"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of notification in Android?",
+      "options": [
+        "Toast",
+        "Notification Channel",
+        "Snackbar",
+        "Dialog"
+      ],
+      "answer": "Snackbar"
+    }
+  ],
+  "game_dev": [
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To handle user input",
+        "To render graphics to the screen",
+        "To control the flow of the game and update game logic",
+        "To manage game assets such as images and sounds"
+      ],
+      "answer": "To control the flow of the game and update game logic"
+    },
+    {
+      "question": "Which of the following is NOT a common collision detection technique used in game development?",
+      "options": [
+        "AABB collision detection",
+        "SAT collision detection",
+        "Raycasting",
+        "Serialization"
+      ],
+      "answer": "Serialization"
+    },
+    {
+      "question": "What does the term 'sprite' refer to in game development?",
+      "options": [
+        "A type of lighting effect",
+        "A 3D model",
+        "A 2D image or animation used in the game",
+        "A physics component"
+      ],
+      "answer": "A 2D image or animation used in the game"
+    },
+    {
+      "question": "Which of the following is a key component of the Entity-Component-System (ECS) architecture used in game development?",
+      "options": [
+        "Game loop",
+        "Scene graph",
+        "Asset manager",
+        "Component"
+      ],
+      "answer": "Component"
+    },
+    {
+      "question": "What is the purpose of delta time in game development?",
+      "options": [
+        "To measure the time it takes for a projectile to reach its target",
+        "To synchronize audio and visual effects",
+        "To measure the difference in time between consecutive frames",
+        "To control the difficulty level of the game"
+      ],
+      "answer": "To measure the difference in time between consecutive frames"
+    },
+    {
+      "question": "Which of the following is NOT a common method for managing game state in game development?",
+      "options": [
+        "Finite State Machine (FSM)",
+        "Stack-based state management",
+        "Observer pattern",
+        "Singleton pattern"
+      ],
+      "answer": "Observer pattern"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of the game's user interface",
+        "To manage the game's navigation between screens",
+        "To define the appearance of objects in the game world",
+        "To handle network communication between players"
+      ],
+      "answer": "To define the appearance of objects in the game world"
+    },
+    {
+      "question": "Which of the following is a common technique for optimizing rendering performance in game development?",
+      "options": [
+        "Level of Detail (LOD)",
+        "Observer pattern",
+        "Singleton pattern",
+        "Recursive subdivision"
+      ],
+      "answer": "Level of Detail (LOD)"
+    },
+    {
+      "question": "What is the purpose of collision resolution in game development?",
+      "options": [
+        "To handle user input",
+        "To synchronize audio and visual effects",
+        "To resolve conflicts between overlapping game objects",
+        "To control the flow of the game and update game logic"
+      ],
+      "answer": "To resolve conflicts between overlapping game objects"
+    },
+    {
+      "question": "What is the purpose of frustum culling in game development?",
+      "options": [
+        "To optimize rendering performance by only rendering objects within the camera's field of view",
+        "To manage audio effects based on the player's location",
+        "To control the difficulty level of the game",
+        "To synchronize network communication between players"
+      ],
+      "answer": "To optimize rendering performance by only rendering objects within the camera's field of view"
+    }
+  ],
+  "web_dev": [
+    {
+      "question": "What is the purpose of CORS (Cross-Origin Resource Sharing) in web development?",
+      "options": [
+        "To prevent caching of web resources by the browser",
+        "To allow or restrict access to resources from different origins",
+        "To compress web resources for faster loading",
+        "To encrypt data transmitted between the client and server"
+      ],
+      "answer": "To allow or restrict access to resources from different origins"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTTP status code for a successful response?",
+      "options": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": "500 Internal Server Error"
+    },
+    {
+      "question": "What is the purpose of HTTPS (Hypertext Transfer Protocol Secure) in web development?",
+      "options": [
+        "To improve the performance of web applications",
+        "To encrypt data transmitted between the client and server",
+        "To handle asynchronous requests from the client",
+        "To optimize web resources for faster loading"
+      ],
+      "answer": "To encrypt data transmitted between the client and server"
+    },
+    {
+      "question": "Which of the following is NOT a valid method for storing session data in web development?",
+      "options": [
+        "Cookies",
+        "Local storage",
+        "Session storage",
+        "URL parameters"
+      ],
+      "answer": "URL parameters"
+    },
+    {
+      "question": "What is the purpose of the 'async' attribute in the <script> element?",
+      "options": [
+        "To specify that the script should be executed asynchronously",
+        "To delay the loading of the script until after the document has been parsed",
+        "To specify the character encoding of the script file",
+        "To disable the caching of the script file"
+      ],
+      "answer": "To specify that the script should be executed asynchronously"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' CSS property?",
+      "options": [
+        "To specify the color of the border around an element",
+        "To control the display of an element as a block or inline",
+        "To include or exclude an element's padding and border from its total width and height",
+        "To specify the font family used for text within an element"
+      ],
+      "answer": "To include or exclude an element's padding and border from its total width and height"
+    },
+    {
+      "question": "What does the term 'responsive design' refer to in web development?",
+      "options": [
+        "Designing websites with dynamic content that changes based on user interactions",
+        "Designing websites with visually appealing graphics and animations",
+        "Designing websites that adapt to different screen sizes and devices",
+        "Designing websites with fast loading times"
+      ],
+      "answer": "Designing websites that adapt to different screen sizes and devices"
+    },
+    {
+      "question": "Which of the following is NOT a valid CSS selector?",
+      "options": [
+        "Class selector",
+        "ID selector",
+        "Tag selector",
+        "Range selector"
+      ],
+      "answer": "Range selector"
+    },
+    {
+      "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+      "options": [
+        "To specify the author of the webpage",
+        "To define the structure of the webpage",
+        "To control the layout and scaling of the viewport on mobile browsers",
+        "To provide metadata about the webpage for search engines"
+      ],
+      "answer": "To control the layout and scaling of the viewport on mobile browsers"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of CSS unit?",
+      "options": [
+        "Pixel (px)",
+        "Percentage (%)",
+        "Em",
+        "Volt (V)"
+      ],
+      "answer": "Volt (V)"
+    }
+  ]
+}

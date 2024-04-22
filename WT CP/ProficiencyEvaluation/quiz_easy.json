@@ -1,0 +1,614 @@
+{
+  "ai": [
+    {
+      "question": "What is the purpose of an activation function in a neural network?",
+      "options": [
+        "To initialize the weights",
+        "To compute the gradient efficiently",
+        "To introduce non-linearity into the network",
+        "To normalize the input data"
+      ],
+      "answer": "To introduce non-linearity into the network"
+    },
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "What does the term 'overfitting' refer to in machine learning?",
+      "options": [
+        "The model performs well on the training data but poorly on unseen data.",
+        "The model fails to converge during training.",
+        "The model generalizes well to unseen data.",
+        "The model suffers from high bias."
+      ],
+      "answer": "The model performs well on the training data but poorly on unseen data."
+    },
+    {
+      "question": "Which evaluation metric is commonly used for classification tasks and represents the ratio of correctly predicted instances to the total instances?",
+      "options": [
+        "Mean Absolute Error (MAE)",
+        "F1 Score",
+        "Root Mean Squared Error (RMSE)",
+        "Accuracy"
+      ],
+      "answer": "Accuracy"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which technique is used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which theorem provides a formal basis for the Naive Bayes classifier by assuming independence between features?",
+      "options": [
+        "Central Limit Theorem",
+        "Bayes Theorem",
+        "Gauss-Markov Theorem",
+        "Chain Rule"
+      ],
+      "answer": "Bayes Theorem"
+    }
+  ],
+  "ml": [
+    {
+      "question": "Which technique is commonly used to pre-process textual data by removing common words that carry little semantic meaning?",
+      "options": [
+        "Stopword removal",
+        "Stemming",
+        "Lemmatization",
+        "Tokenization"
+      ],
+      "answer": "Stopword removal"
+    },
+    {
+      "question": "In deep learning, what does the term overfitting refer to?",
+      "options": [
+        "The model performs well on the training data but poorly on unseen data.",
+        "The model fails to converge during training.",
+        "The model generalizes well to unseen data.",
+        "The model suffers from high bias."
+      ],
+      "answer": "The model performs well on the training data but poorly on unseen data."
+    },
+    {
+      "question": "Which algorithm is used to optimize the weights of a neural network by iteratively updating them based on the gradient of the loss function?",
+      "options": [
+        "Gradient Boosting",
+        "K-Means",
+        "Backpropagation",
+        "Expectation-Maximization (EM)"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which technique is used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To normalize the input data",
+        "To introduce non-linearity into the network",
+        "To reduce the dimensionality of the data",
+        "To regularize the weights of the network"
+      ],
+      "answer": "To introduce non-linearity into the network"
+    },
+    {
+      "question": "Which approach in machine learning involves mimicking the structure and function of the human brain to build intelligent systems?",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
+      ],
+      "answer": "Neural Networks"
+    },
+    {
+      "question": "Which theorem provides a formal basis for the Naive Bayes classifier by assuming independence between features?",
+      "options": [
+        "Central Limit Theorem",
+        "Bayes Theorem",
+        "Gauss-Markov Theorem",
+        "Chain Rule"
+      ],
+      "answer": "Bayes Theorem"
+    },
+    {
+      "question": "Which type of learning technique adjusts the model's parameters based on the difference between predicted and actual outcomes?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Semi-supervised Learning"
+      ],
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "What is the process of updating the model's parameters using the gradient of the loss function called in optimization?",
+      "options": [
+        "Backpropagation",
+        "Forward propagation",
+        "Gradient descent",
+        "Stochastic gradient descent"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for classification tasks and represents the ratio of correctly predicted instances to the total instances?",
+      "options": [
+        "Mean Absolute Error (MAE)",
+        "F1 Score",
+        "Root Mean Squared Error (RMSE)",
+        "Accuracy"
+      ],
+      "answer": "Accuracy"
+    }
+  ],
+  "ds": [
+    {
+      "question": "Which algorithm is commonly used for anomaly detection in time-series data?",
+      "options": [
+        "Linear Regression",
+        "K-means Clustering",
+        "Isolation Forest",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In natural language processing, what is the purpose of stemming?",
+      "options": [
+        "Identifying the root word of a given word",
+        "Assigning a sentiment score to text data",
+        "Tokenizing sentences into words",
+        "Extracting named entities from text data"
+      ],
+      "answer": "Identifying the root word of a given word"
+    },
+    {
+      "question": "What is the primary difference between L1 and L2 regularization?",
+      "options": [
+        "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values.",
+        "L1 regularization penalizes large coefficients more heavily than L2 regularization.",
+        "L2 regularization encourages sparsity in the coefficient values, while L1 regularization does not.",
+        "L2 regularization is only applicable to linear models, while L1 regularization can be used with any model."
+      ],
+      "answer": "L1 regularization adds the absolute values of the coefficients to the loss function, while L2 regularization adds the squared values."
+    },
+    {
+      "question": "What is the purpose of the A/B test in data science?",
+      "options": [
+        "To evaluate the performance of machine learning models",
+        "To compare the effectiveness of different marketing strategies",
+        "To preprocess the data before model training",
+        "To visualize the distribution of data"
+      ],
+      "answer": "To compare the effectiveness of different marketing strategies"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for assessing the performance of regression models?",
+      "options": [
+        "Precision",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "F1-score"
+      ],
+      "answer": "Mean Absolute Error (MAE)"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To reduce the computational cost of training the model",
+        "To prevent overfitting by randomly dropping units from the neural network during training",
+        "To speed up the convergence of the optimization algorithm",
+        "To increase the model's capacity to capture complex patterns in the data"
+      ],
+      "answer": "To prevent overfitting by randomly dropping units from the neural network during training"
+    },
+    {
+      "question": "Which technique is commonly used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the EM (Expectation-Maximization) algorithm in clustering?",
+      "options": [
+        "To maximize the likelihood function of the data given the model parameters",
+        "To minimize the within-cluster sum of squares",
+        "To initialize the centroids for K-means clustering",
+        "To estimate the parameters of a mixture model from incomplete data"
+      ],
+      "answer": "To estimate the parameters of a mixture model from incomplete data"
+    },
+    {
+      "question": "Which algorithm is commonly used for collaborative filtering in recommendation systems?",
+      "options": [
+        "K-means Clustering",
+        "Random Forest",
+        "Singular Value Decomposition (SVD)",
+        "Gradient Boosting Machines (GBM)"
+      ],
+      "answer": "Singular Value Decomposition (SVD)"
+    },
+    {
+      "question": "What is the purpose of the cross-entropy loss in classification problems?",
+      "options": [
+        "To measure the difference between probability distributions",
+        "To minimize the mean squared error between predicted and actual values",
+        "To regularize the weights of the neural network",
+        "To reduce the variance of the model"
+      ],
+      "answer": "To measure the difference between probability distributions"
+    }
+  ],
+  "app_dev": [
+    {
+      "question": "What is the purpose of an Intent in Android development?",
+      "options": [
+        "To handle background tasks in an Android app",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To manage the database operations in an Android app"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    },
+    {
+      "question": "Which of the following components is NOT part of the Android Architecture Components?",
+      "options": [
+        "LiveData",
+        "ViewModel",
+        "Fragment",
+        "Room"
+      ],
+      "answer": "Fragment"
+    },
+    {
+      "question": "What is the purpose of the 'manifest' file in Android development?",
+      "options": [
+        "To define the layout of user interface components",
+        "To manage the resources used by the app",
+        "To declare the app's components and their respective configurations",
+        "To define the database schema for the app"
+      ],
+      "answer": "To declare the app's components and their respective configurations"
+    },
+    {
+      "question": "Which of the following is NOT a valid layout manager in Android RecyclerView?",
+      "options": [
+        "LinearLayoutManager",
+        "GridLayout",
+        "FlexboxLayoutManager",
+        "CardViewManager"
+      ],
+      "answer": "CardViewManager"
+    },
+    {
+      "question": "What is the purpose of the 'ViewModel' class in Android development?",
+      "options": [
+        "To define the structure of the app's user interface",
+        "To manage the app's navigation between screens",
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To store and manage UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of Android application component?",
+      "options": [
+        "Activity",
+        "Service",
+        "Widget",
+        "ContentProvider"
+      ],
+      "answer": "Widget"
+    },
+    {
+      "question": "What is the purpose of the 'SharedPreferences' class in Android development?",
+      "options": [
+        "To store and retrieve small amounts of primitive data as key-value pairs",
+        "To manage the app's user interface layout",
+        "To define the app's navigation graph",
+        "To handle background tasks in an Android app"
+      ],
+      "answer": "To store and retrieve small amounts of primitive data as key-value pairs"
+    },
+    {
+      "question": "What is the purpose of the 'RecyclerView' in Android development?",
+      "options": [
+        "To display images in a grid layout",
+        "To manage the app's navigation between screens",
+        "To efficiently display large datasets of scrollable lists",
+        "To define the structure of the app's user interface"
+      ],
+      "answer": "To efficiently display large datasets of scrollable lists"
+    },
+    {
+      "question": "Which of the following is NOT a valid permission protection level in Android?",
+      "options": [
+        "Normal",
+        "Dangerous",
+        "Signature",
+        "System"
+      ],
+      "answer": "Normal"
+    },
+    {
+      "question": "What is the purpose of the 'Intent' class in Android development?",
+      "options": [
+        "To store and manage UI-related data in a lifecycle-conscious way",
+        "To define the user interface layout of an Android app",
+        "To pass data between components within an Android app or between different apps",
+        "To handle asynchronous network operations"
+      ],
+      "answer": "To pass data between components within an Android app or between different apps"
+    }
+  ],
+  "game_dev": [
+    {
+      "question": "Which game engine is known for its use in creating 3D games such as Fortnite and PUBG?",
+      "options": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "CryEngine"
+      ],
+      "answer": "Unreal Engine"
+    },
+    {
+      "question": "What is the purpose of collision detection in game development?",
+      "options": [
+        "To create visual effects in the game",
+        "To handle player input",
+        "To detect when two game objects intersect in the game world",
+        "To optimize the game's performance"
+      ],
+      "answer": "To detect when two game objects intersect in the game world"
+    },
+    {
+      "question": "Which programming language is commonly used for scripting in the Unity game engine?",
+      "options": [
+        "C++",
+        "Java",
+        "Python",
+        "C#"
+      ],
+      "answer": "C#"
+    },
+    {
+      "question": "What is the purpose of a game engine in game development?",
+      "options": [
+        "To create game assets such as graphics and sounds",
+        "To manage the game's user interface",
+        "To handle player input",
+        "To provide tools and libraries for building and running games"
+      ],
+      "answer": "To provide tools and libraries for building and running games"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used technique for optimizing game performance?",
+      "options": [
+        "Level-of-Detail (LOD) rendering",
+        "Culling",
+        "Rasterization",
+        "Batching"
+      ],
+      "answer": "Rasterization"
+    },
+    {
+      "question": "What is the purpose of a shader in game development?",
+      "options": [
+        "To define the structure of game objects",
+        "To handle player input",
+        "To create visual effects such as lighting and textures",
+        "To manage game physics"
+      ],
+      "answer": "To create visual effects such as lighting and textures"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used type of game camera?",
+      "options": [
+        "Orthographic camera",
+        "Perspective camera",
+        "Isometric camera",
+        "Kinematic camera"
+      ],
+      "answer": "Kinematic camera"
+    },
+    {
+      "question": "What is the purpose of the physics engine in game development?",
+      "options": [
+        "To create game assets such as graphics and sounds",
+        "To handle player input",
+        "To simulate physical interactions between game objects",
+        "To manage the game's user interface"
+      ],
+      "answer": "To simulate physical interactions between game objects"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used component in a game object?",
+      "options": [
+        "Renderer",
+        "Collider",
+        "Script",
+        "Shader"
+      ],
+      "answer": "Shader"
+    },
+    {
+      "question": "What is the purpose of a game loop in game development?",
+      "options": [
+        "To create visual effects in the game",
+        "To handle player input",
+        "To define the structure of game objects",
+        "To continuously update the game state and render frames"
+      ],
+      "answer": "To continuously update the game state and render frames"
+    }
+  ],
+  "web_dev": [
+    {
+      "question": "Which programming language is commonly used for client-side scripting in web development?",
+      "options": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C#"
+      ],
+      "answer": "JavaScript"
+    },
+    {
+      "question": "What does CSS stand for in web development?",
+      "options": [
+        "Cascading Style Sheets",
+        "Centralized Style Syntax",
+        "Cascading Script Styles",
+        "Creative Styling System"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "What is the purpose of a CSS framework in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To handle server-side operations in web applications",
+        "To manage databases in web development"
+      ],
+      "answer": "To provide pre-designed and reusable CSS styles for building websites"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used frontend framework in web development?",
+      "options": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "Django"
+      ],
+      "answer": "Django"
+    },
+    {
+      "question": "What is the purpose of a JavaScript library like jQuery in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To handle server-side operations in web applications",
+        "To simplify DOM manipulation and event handling"
+      ],
+      "answer": "To simplify DOM manipulation and event handling"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used backend framework in web development?",
+      "options": [
+        "Node.js",
+        "Django",
+        "Ruby on Rails",
+        "Laravel"
+      ],
+      "answer": "Node.js"
+    },
+    {
+      "question": "What is the purpose of a web server in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To store and manage user data",
+        "To handle client requests and serve web pages to users",
+        "To manage databases in web development"
+      ],
+      "answer": "To handle client requests and serve web pages to users"
+    },
+    {
+      "question": "What is the purpose of a database in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To handle client requests and serve web pages to users",
+        "To store and manage user data",
+        "To provide pre-designed and reusable CSS styles for building websites"
+      ],
+      "answer": "To store and manage user data"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used database management system in web development?",
+      "options": [
+        "MySQL",
+        "MongoDB",
+        "SQLite",
+        "Apache"
+      ],
+      "answer": "Apache"
+    },
+    {
+      "question": "What is the purpose of AJAX in web development?",
+      "options": [
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To simplify DOM manipulation and event handling",
+        "To handle asynchronous HTTP requests and update parts of a web page without reloading the entire page",
+        "To manage databases in web development"
+      ],
+      "answer": "To handle asynchronous HTTP requests and update parts of a web page without reloading the entire page"
+    }
+  ]
+}

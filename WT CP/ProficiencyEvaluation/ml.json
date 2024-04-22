@@ -1,0 +1,410 @@
+{
+  "hard": [
+    {
+      "question": "Which of the following algorithms is primarily used for anomaly detection in large datasets?",
+      "options": [
+        "Random Forest",
+        "Isolation Forest",
+        "K-Means Clustering",
+        "Decision Trees"
+      ],
+      "answer": "Isolation Forest"
+    },
+    {
+      "question": "In reinforcement learning, what does the term 'exploration-exploitation dilemma' refer to?",
+      "options": [
+        "Balancing the trade-off between exploration of new actions and exploitation of known actions",
+        "Choosing the best action without exploring other possibilities",
+        "Maximizing rewards at the expense of exploration",
+        "Ignoring exploration to focus solely on exploitation"
+      ],
+      "answer": "Balancing the trade-off between exploration of new actions and exploitation of known actions"
+    },
+    {
+      "question": "What is the purpose of dropout regularization in neural networks?",
+      "options": [
+        "To randomly drop neurons during training to prevent overfitting",
+        "To increase the number of neurons in hidden layers",
+        "To decrease the learning rate during training",
+        "To reduce computational complexity"
+      ],
+      "answer": "To randomly drop neurons during training to prevent overfitting"
+    },
+    {
+      "question": "Which evaluation metric is most suitable for imbalanced classification problems?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "F1-score",
+        "Mean Squared Error"
+      ],
+      "answer": "F1-score"
+    },
+    {
+      "question": "Which of the following is NOT a kernel function used in Support Vector Machines (SVM)?",
+      "options": [
+        "Linear",
+        "Polynomial",
+        "Exponential",
+        "Radial Basis Function (RBF)"
+      ],
+      "answer": "Exponential"
+    },
+    {
+      "question": "What does the term 'curse of dimensionality' refer to in machine learning?",
+      "options": [
+        "High-dimensional datasets are easier to process than low-dimensional ones.",
+        "High-dimensional datasets require less computational resources.",
+        "As the number of dimensions increases, the volume of the space increases exponentially, leading to data sparsity.",
+        "Adding more features always improves the model's performance."
+      ],
+      "answer": "As the number of dimensions increases, the volume of the space increases exponentially, leading to data sparsity."
+    },
+    {
+      "question": "Which ensemble method builds multiple models sequentially, where each new model corrects the errors of the previous one?",
+      "options": [
+        "Bagging",
+        "Boosting",
+        "Stacking",
+        "Random Forest"
+      ],
+      "answer": "Boosting"
+    },
+    {
+      "question": "In unsupervised learning, what is the purpose of dimensionality reduction techniques like Principal Component Analysis (PCA)?",
+      "options": [
+        "To reduce the number of features while preserving most of the variability in the data",
+        "To increase the number of features for better model performance",
+        "To create new features based on existing ones",
+        "To remove outliers from the dataset"
+      ],
+      "answer": "To reduce the number of features while preserving most of the variability in the data"
+    },
+    {
+      "question": "What is the primary objective of the Adam optimization algorithm in deep learning?",
+      "options": [
+        "To accelerate gradient descent convergence",
+        "To prevent overfitting by regularizing the weights",
+        "To compute the gradient efficiently",
+        "To adaptively adjust the learning rate during training"
+      ],
+      "answer": "To adaptively adjust the learning rate during training"
+    },
+    {
+      "question": "Which of the following techniques is used to handle missing data in a dataset?",
+      "options": [
+        "Data normalization",
+        "Data standardization",
+        "Imputation",
+        "Feature scaling"
+      ],
+      "answer": "Imputation"
+    }
+  ],
+  "medium_hard": [
+    {
+      "question": "Which of the following algorithms is used for both classification and regression tasks?",
+      "options": [
+        "K-Means",
+        "Decision Trees",
+        "Linear Regression",
+        "K-Nearest Neighbors"
+      ],
+      "answer": "Decision Trees"
+    },
+    {
+      "question": "What is the main disadvantage of using the k-Nearest Neighbors (k-NN) algorithm?",
+      "options": [
+        "It is sensitive to outliers",
+        "It is not suitable for large datasets",
+        "It cannot handle missing values",
+        "It requires feature scaling"
+      ],
+      "answer": "It is not suitable for large datasets"
+    },
+    {
+      "question": "Which of the following techniques can be used to combat overfitting in neural networks?",
+      "options": [
+        "L1 regularization",
+        "Increasing the number of hidden layers",
+        "Decreasing the dropout rate",
+        "Adding noise to the training data"
+      ],
+      "answer": "L1 regularization"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To initialize the weights",
+        "To compute the gradient efficiently",
+        "To introduce non-linearity",
+        "To normalize the input data"
+      ],
+      "answer": "To introduce non-linearity"
+    },
+    {
+      "question": "Which of the following is NOT a distance metric used in k-Nearest Neighbors (k-NN)?",
+      "options": [
+        "Euclidean Distance",
+        "Manhattan Distance",
+        "Mahalanobis Distance",
+        "Pearson Correlation"
+      ],
+      "answer": "Pearson Correlation"
+    },
+    {
+      "question": "What does the term \"bias-variance trade-off\" refer to in machine learning?",
+      "options": [
+        "Balancing the model's bias and variance to minimize prediction errors",
+        "Maximizing the model's bias while minimizing variance",
+        "Minimizing the model's bias while maximizing variance",
+        "Ignoring bias and focusing solely on reducing variance"
+      ],
+      "answer": "Balancing the model's bias and variance to minimize prediction errors"
+    },
+    {
+      "question": "Which method is commonly used to handle categorical variables in a machine learning model?",
+      "options": [
+        "Label Encoding",
+        "One-Hot Encoding",
+        "Ordinal Encoding",
+        "Binary Encoding"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the inertia criterion in K-Means clustering?",
+      "options": [
+        "To measure the compactness of clusters",
+        "To compute the silhouette score",
+        "To determine the optimal number of clusters",
+        "To minimize the within-cluster sum of squares"
+      ],
+      "answer": "To minimize the within-cluster sum of squares"
+    },
+    {
+      "question": "Which of the following algorithms is a non-parametric method for regression and classification?",
+      "options": [
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision Trees",
+        "Support Vector Machines (SVM)"
+      ],
+      "answer": "Decision Trees"
+    },
+    {
+      "question": "What does the term \"ensemble learning\" refer to in machine learning?",
+      "options": [
+        "Training multiple models independently and combining their predictions",
+        "Training a single complex model on large datasets",
+        "Using only one algorithm for model training",
+        "Combining feature sets from different datasets"
+      ],
+      "answer": "Training multiple models independently and combining their predictions"
+    }
+  ],
+  "medium": [
+    {
+      "question": "Which technique is commonly used to pre-process textual data by removing common words that carry little semantic meaning?",
+      "options": [
+        "Stopword removal",
+        "Stemming",
+        "Lemmatization",
+        "Tokenization"
+      ],
+      "answer": "Stopword removal"
+    },
+    {
+      "question": "In deep learning, what does the term overfitting refer to?",
+      "options": [
+        "The model performs well on the training data but poorly on unseen data.",
+        "The model fails to converge during training.",
+        "The model generalizes well to unseen data.",
+        "The model suffers from high bias."
+      ],
+      "answer": "The model performs well on the training data but poorly on unseen data."
+    },
+    {
+      "question": "Which algorithm is used to optimize the weights of a neural network by iteratively updating them based on the gradient of the loss function?",
+      "options": [
+        "Gradient Boosting",
+        "K-Means",
+        "Backpropagation",
+        "Expectation-Maximization (EM)"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which technique is used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To normalize the input data",
+        "To introduce non-linearity into the network",
+        "To reduce the dimensionality of the data",
+        "To regularize the weights of the network"
+      ],
+      "answer": "To introduce non-linearity into the network"
+    },
+    {
+      "question": "Which approach in machine learning involves mimicking the structure and function of the human brain to build intelligent systems?",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
+      ],
+      "answer": "Neural Networks"
+    },
+    {
+      "question": "Which theorem provides a formal basis for the Naive Bayes classifier by assuming independence between features?",
+      "options": [
+        "Central Limit Theorem",
+        "Bayes Theorem",
+        "Gauss-Markov Theorem",
+        "Chain Rule"
+      ],
+      "answer": "Bayes Theorem"
+    },
+    {
+      "question": "Which type of learning technique adjusts the model's parameters based on the difference between predicted and actual outcomes?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Semi-supervised Learning"
+      ],
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "What is the process of updating the model's parameters using the gradient of the loss function called in optimization?",
+      "options": [
+        "Backpropagation",
+        "Forward propagation",
+        "Gradient descent",
+        "Stochastic gradient descent"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for classification tasks and represents the ratio of correctly predicted instances to the total instances?",
+      "options": [
+        "Mean Absolute Error (MAE)",
+        "F1 Score",
+        "Root Mean Squared Error (RMSE)",
+        "Accuracy"
+      ],
+      "answer": "Accuracy"
+    }
+  ],
+  "easy": [
+    {
+      "question": "Which technique is commonly used to pre-process textual data by removing common words that carry little semantic meaning?",
+      "options": [
+        "Stopword removal",
+        "Stemming",
+        "Lemmatization",
+        "Tokenization"
+      ],
+      "answer": "Stopword removal"
+    },
+    {
+      "question": "In deep learning, what does the term overfitting refer to?",
+      "options": [
+        "The model performs well on the training data but poorly on unseen data.",
+        "The model fails to converge during training.",
+        "The model generalizes well to unseen data.",
+        "The model suffers from high bias."
+      ],
+      "answer": "The model performs well on the training data but poorly on unseen data."
+    },
+    {
+      "question": "Which algorithm is used to optimize the weights of a neural network by iteratively updating them based on the gradient of the loss function?",
+      "options": [
+        "Gradient Boosting",
+        "K-Means",
+        "Backpropagation",
+        "Expectation-Maximization (EM)"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which technique is used to transform categorical variables into numerical representations suitable for machine learning algorithms?",
+      "options": [
+        "One-Hot Encoding",
+        "Principal Component Analysis (PCA)",
+        "Mean Normalization",
+        "Feature Scaling"
+      ],
+      "answer": "One-Hot Encoding"
+    },
+    {
+      "question": "What is the purpose of the activation function in a neural network?",
+      "options": [
+        "To normalize the input data",
+        "To introduce non-linearity into the network",
+        "To reduce the dimensionality of the data",
+        "To regularize the weights of the network"
+      ],
+      "answer": "To introduce non-linearity into the network"
+    },
+    {
+      "question": "Which approach in machine learning involves mimicking the structure and function of the human brain to build intelligent systems?",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks"
+      ],
+      "answer": "Neural Networks"
+    },
+    {
+      "question": "Which theorem provides a formal basis for the Naive Bayes classifier by assuming independence between features?",
+      "options": [
+        "Central Limit Theorem",
+        "Bayes Theorem",
+        "Gauss-Markov Theorem",
+        "Chain Rule"
+      ],
+      "answer": "Bayes Theorem"
+    },
+    {
+      "question": "Which type of learning technique adjusts the model's parameters based on the difference between predicted and actual outcomes?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Semi-supervised Learning"
+      ],
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "What is the process of updating the model's parameters using the gradient of the loss function called in optimization?",
+      "options": [
+        "Backpropagation",
+        "Forward propagation",
+        "Gradient descent",
+        "Stochastic gradient descent"
+      ],
+      "answer": "Backpropagation"
+    },
+    {
+      "question": "Which evaluation metric is commonly used for classification tasks and represents the ratio of correctly predicted instances to the total instances?",
+      "options": [
+        "Mean Absolute Error (MAE)",
+        "F1 Score",
+        "Root Mean Squared Error (RMSE)",
+        "Accuracy"
+      ],
+      "answer": "Accuracy"
+    }
+  ]
+}

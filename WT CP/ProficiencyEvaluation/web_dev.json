@@ -1,0 +1,410 @@
+{
+  "hard": [
+    {
+      "question": "Which of the following HTTP methods is idempotent, meaning that performing the same request multiple times will have the same effect as performing it once?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "answer": "PUT"
+    },
+    {
+      "question": "What is the purpose of a CSS preprocessor like Sass or Less?",
+      "options": [
+        "To compile JavaScript code",
+        "To optimize images for the web",
+        "To enhance the performance of web servers",
+        "To simplify and extend CSS with variables, mixins, and functions"
+      ],
+      "answer": "To simplify and extend CSS with variables, mixins, and functions"
+    },
+    {
+      "question": "Which of the following is NOT a valid way to include JavaScript code in an HTML document?",
+      "options": [
+        "Inline script tag",
+        "External script file linked with the src attribute",
+        "Using the script element with type=\"module\"",
+        "Including JavaScript directly within the CSS file"
+      ],
+      "answer": "Including JavaScript directly within the CSS file"
+    },
+    {
+      "question": "What is the purpose of the \"viewport\" meta tag in HTML?",
+      "options": [
+        "To specify the author of the webpage",
+        "To define the structure of the webpage",
+        "To control the layout and scaling of the viewport on mobile browsers",
+        "To provide metadata about the webpage for search engines"
+      ],
+      "answer": "To control the layout and scaling of the viewport on mobile browsers"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTTP status code?",
+      "options": [
+        "200 OK",
+        "404 Not Found",
+        "303 See Other",
+        "500 Internal Server Error"
+      ],
+      "answer": "303 See Other"
+    },
+    {
+      "question": "What is the purpose of the \"box-sizing\" CSS property?",
+      "options": [
+        "To specify the color of the border around an element",
+        "To control the display of an element as a block or inline",
+        "To include or exclude an element's padding and border from its total width and height",
+        "To specify the font family used for text within an element"
+      ],
+      "answer": "To include or exclude an element's padding and border from its total width and height"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of CSS selector?",
+      "options": [
+        "Class selector",
+        "ID selector",
+        "Tag selector",
+        "Range selector"
+      ],
+      "answer": "Range selector"
+    },
+    {
+      "question": "What is the purpose of the \"defer\" attribute in the script element?",
+      "options": [
+        "To indicate that the script should be executed asynchronously",
+        "To delay the loading of the script until after the document has been parsed",
+        "To specify the character encoding of the script file",
+        "To disable the caching of the script file"
+      ],
+      "answer": "To delay the loading of the script until after the document has been parsed"
+    },
+    {
+      "question": "Which of the following is a valid way to define a CSS variable?",
+      "options": [
+        "@variable { color: blue; }",
+        "$variable: blue;",
+        "--variable: blue;",
+        "#variable = blue;"
+      ],
+      "answer": "--variable: blue;"
+    },
+    {
+      "question": "What is the purpose of the \"aria-\" attributes in HTML?",
+      "options": [
+        "To define custom animations for elements",
+        "To specify alternative text for images",
+        "To provide additional information about the accessibility and semantics of elements for screen readers and other assistive technologies",
+        "To control the layout of elements within a webpage"
+      ],
+      "answer": "To provide additional information about the accessibility and semantics of elements for screen readers and other assistive technologies"
+    }
+  ],
+  "medium_hard": [
+    {
+      "question": "What is the purpose of CORS (Cross-Origin Resource Sharing) in web development?",
+      "options": [
+        "To prevent caching of web resources by the browser",
+        "To allow or restrict access to resources from different origins",
+        "To compress web resources for faster loading",
+        "To encrypt data transmitted between the client and server"
+      ],
+      "answer": "To allow or restrict access to resources from different origins"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTTP status code for a successful response?",
+      "options": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": "500 Internal Server Error"
+    },
+    {
+      "question": "What is the purpose of HTTPS (Hypertext Transfer Protocol Secure) in web development?",
+      "options": [
+        "To improve the performance of web applications",
+        "To encrypt data transmitted between the client and server",
+        "To handle asynchronous requests from the client",
+        "To optimize web resources for faster loading"
+      ],
+      "answer": "To encrypt data transmitted between the client and server"
+    },
+    {
+      "question": "Which of the following is NOT a valid method for storing session data in web development?",
+      "options": [
+        "Cookies",
+        "Local storage",
+        "Session storage",
+        "URL parameters"
+      ],
+      "answer": "URL parameters"
+    },
+    {
+      "question": "What is the purpose of the 'async' attribute in the script element?",
+      "options": [
+        "To specify that the script should be executed asynchronously",
+        "To delay the loading of the script until after the document has been parsed",
+        "To specify the character encoding of the script file",
+        "To disable the caching of the script file"
+      ],
+      "answer": "To specify that the script should be executed asynchronously"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' CSS property?",
+      "options": [
+        "To specify the color of the border around an element",
+        "To control the display of an element as a block or inline",
+        "To include or exclude an element's padding and border from its total width and height",
+        "To specify the font family used for text within an element"
+      ],
+      "answer": "To include or exclude an element's padding and border from its total width and height"
+    },
+    {
+      "question": "What does the term 'responsive design' refer to in web development?",
+      "options": [
+        "Designing websites with dynamic content that changes based on user interactions",
+        "Designing websites with visually appealing graphics and animations",
+        "Designing websites that adapt to different screen sizes and devices",
+        "Designing websites with fast loading times"
+      ],
+      "answer": "Designing websites that adapt to different screen sizes and devices"
+    },
+    {
+      "question": "Which of the following is NOT a valid CSS selector?",
+      "options": [
+        "Class selector",
+        "ID selector",
+        "Tag selector",
+        "Range selector"
+      ],
+      "answer": "Range selector"
+    },
+    {
+      "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+      "options": [
+        "To specify the author of the webpage",
+        "To define the structure of the webpage",
+        "To control the layout and scaling of the viewport on mobile browsers",
+        "To provide metadata about the webpage for search engines"
+      ],
+      "answer": "To control the layout and scaling of the viewport on mobile browsers"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of CSS unit?",
+      "options": [
+        "Pixel (px)",
+        "Percentage (%)",
+        "Em",
+        "Volt (V)"
+      ],
+      "answer": "Volt (V)"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the purpose of CORS (Cross-Origin Resource Sharing) in web development?",
+      "options": [
+        "To prevent caching of web resources by the browser",
+        "To allow or restrict access to resources from different origins",
+        "To compress web resources for faster loading",
+        "To encrypt data transmitted between the client and server"
+      ],
+      "answer": "To allow or restrict access to resources from different origins"
+    },
+    {
+      "question": "Which of the following is NOT a valid HTTP status code for a successful response?",
+      "options": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": "500 Internal Server Error"
+    },
+    {
+      "question": "What is the purpose of HTTPS (Hypertext Transfer Protocol Secure) in web development?",
+      "options": [
+        "To improve the performance of web applications",
+        "To encrypt data transmitted between the client and server",
+        "To handle asynchronous requests from the client",
+        "To optimize web resources for faster loading"
+      ],
+      "answer": "To encrypt data transmitted between the client and server"
+    },
+    {
+      "question": "Which of the following is NOT a valid method for storing session data in web development?",
+      "options": [
+        "Cookies",
+        "Local storage",
+        "Session storage",
+        "URL parameters"
+      ],
+      "answer": "URL parameters"
+    },
+    {
+      "question": "What is the purpose of the 'async' attribute in the script element?",
+      "options": [
+        "To specify that the script should be executed asynchronously",
+        "To delay the loading of the script until after the document has been parsed",
+        "To specify the character encoding of the script file",
+        "To disable the caching of the script file"
+      ],
+      "answer": "To specify that the script should be executed asynchronously"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' CSS property?",
+      "options": [
+        "To specify the color of the border around an element",
+        "To control the display of an element as a block or inline",
+        "To include or exclude an element's padding and border from its total width and height",
+        "To specify the font family used for text within an element"
+      ],
+      "answer": "To include or exclude an element's padding and border from its total width and height"
+    },
+    {
+      "question": "What does the term 'responsive design' refer to in web development?",
+      "options": [
+        "Designing websites with dynamic content that changes based on user interactions",
+        "Designing websites with visually appealing graphics and animations",
+        "Designing websites that adapt to different screen sizes and devices",
+        "Designing websites with fast loading times"
+      ],
+      "answer": "Designing websites that adapt to different screen sizes and devices"
+    },
+    {
+      "question": "Which of the following is NOT a valid CSS selector?",
+      "options": [
+        "Class selector",
+        "ID selector",
+        "Tag selector",
+        "Range selector"
+      ],
+      "answer": "Range selector"
+    },
+    {
+      "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+      "options": [
+        "To specify the author of the webpage",
+        "To define the structure of the webpage",
+        "To control the layout and scaling of the viewport on mobile browsers",
+        "To provide metadata about the webpage for search engines"
+      ],
+      "answer": "To control the layout and scaling of the viewport on mobile browsers"
+    },
+    {
+      "question": "Which of the following is NOT a valid type of CSS unit?",
+      "options": [
+        "Pixel (px)",
+        "Percentage (%)",
+        "Em",
+        "Volt (V)"
+      ],
+      "answer": "Volt (V)"
+    }
+  ],
+  "easy": [
+    {
+      "question": "Which programming language is commonly used for client-side scripting in web development?",
+      "options": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C#"
+      ],
+      "answer": "JavaScript"
+    },
+    {
+      "question": "What does CSS stand for in web development?",
+      "options": [
+        "Cascading Style Sheets",
+        "Centralized Style Syntax",
+        "Cascading Script Styles",
+        "Creative Styling System"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "What is the purpose of a CSS framework in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To handle server-side operations in web applications",
+        "To manage databases in web development"
+      ],
+      "answer": "To provide pre-designed and reusable CSS styles for building websites"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used frontend framework in web development?",
+      "options": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "Django"
+      ],
+      "answer": "Django"
+    },
+    {
+      "question": "What is the purpose of a JavaScript library like jQuery in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To handle server-side operations in web applications",
+        "To simplify DOM manipulation and event handling"
+      ],
+      "answer": "To simplify DOM manipulation and event handling"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used backend framework in web development?",
+      "options": [
+        "Node.js",
+        "Django",
+        "Ruby on Rails",
+        "Laravel"
+      ],
+      "answer": "Node.js"
+    },
+    {
+      "question": "What is the purpose of a web server in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To store and manage user data",
+        "To handle client requests and serve web pages to users",
+        "To manage databases in web development"
+      ],
+      "answer": "To handle client requests and serve web pages to users"
+    },
+    {
+      "question": "What is the purpose of a database in web development?",
+      "options": [
+        "To define the structure and behavior of web pages",
+        "To handle client requests and serve web pages to users",
+        "To store and manage user data",
+        "To provide pre-designed and reusable CSS styles for building websites"
+      ],
+      "answer": "To store and manage user data"
+    },
+    {
+      "question": "Which of the following is NOT a commonly used database management system in web development?",
+      "options": [
+        "MySQL",
+        "MongoDB",
+        "SQLite",
+        "Apache"
+      ],
+      "answer": "Apache"
+    },
+    {
+      "question": "What is the purpose of AJAX in web development?",
+      "options": [
+        "To provide pre-designed and reusable CSS styles for building websites",
+        "To simplify DOM manipulation and event handling",
+        "To handle asynchronous HTTP requests and update parts of a web page without reloading the entire page",
+        "To manage databases in web development"
+      ],
+      "answer": "To handle asynchronous HTTP requests and update parts of a web page without reloading the entire page"
+    }
+  ]
+}
