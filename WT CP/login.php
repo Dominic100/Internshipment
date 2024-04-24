@@ -20,19 +20,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Login Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<h2>Login Form</h2>
-<form method="post" action="">
-    Email: <input type="email" name="email" required><br>
-    Password: <input type="password" name="password" required><br>
-    <input type="submit" value="Login">
-</form>
-<p>Don't have an account? <a href="register.php">Register here</a>.</p>
-<a href="tempIndex.php" class="btn">Home</a>
+
+<div class="container mt-4">
+    <h2 class="text-center">Student Login</h2>
+    <form method="post" action="" class="form-group mx-auto" style="max-width: 400px;">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" class="form-control" required>
+        </div>
+        <input type="submit" value="Login" class="btn btn-primary btn-block">
+    </form>
+    <p class="text-center mt-3">Don't have an account? <a href="register.php">Register here</a>.</p>
+    <div class="text-center">
+        <a href="tempIndex.php" class="btn btn-secondary mt-2">Home</a>
+    </div>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($result) && $result->num_rows != 1) {
+        echo '<div class="alert alert-danger mt-3">Login failed. Please try again.</div>';
+    }
+    ?>
+</div>
+
 </body>
 </html>

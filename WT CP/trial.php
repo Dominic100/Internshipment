@@ -58,7 +58,8 @@ foreach ($companyPreferencesData as $companyId => $internships) {
     }
 }
 
-//print_r($CIids);
+print_r($CIids);
+print_r($CIids[1]);
 
 function calculateAHP($companyPreferencesData, $userProficiencyData, $CIids, $conn) {
     $companyPreferencesMatrix = [];
@@ -104,35 +105,35 @@ function calculateAHP($companyPreferencesData, $userProficiencyData, $CIids, $co
 
     print_r($alternativeIDs);
 
-//    array_multisort($alternativeScores, SORT_DESC, $alternativeIDs);
-//    echo "<p><strong>Top Scores:</strong></p>";
-//    foreach ($alternativeScores as $index => $score) {
-//        $userId = $alternativeIDs[$index];
-//        $userQuery = "SELECT name, email FROM users WHERE id = $userId";
-//        $userResult = $conn->query($userQuery);
-//        if ($userResult->num_rows > 0) {
-//            $userRow = $userResult->fetch_assoc();
-//            $userName = $userRow['name'];
-//            $userEmail = $userRow['email'];
-//
-//            echo '<div style="border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin-bottom: 10px; display: flex;">';
-//            echo '<div style="flex-grow: 1;">';
-//            echo "<p><strong>User ID:</strong> $userId</p>";
-//            echo "<p><strong>Name:</strong> $userName</p>";
-//            echo "<p><strong>Email:</strong> $userEmail</p>";
-//            echo "<p><strong>Score:</strong> $score</p>";
-//            // Add "View Profile" button
-////            echo $userId;
-//            echo '<button class="btn" onclick="location.href=`studentProfile.php?user_id=' . $userId . '`">View Profile</button>';
-//            echo '</div>';
-//            echo '</div>';
-//        }
-//    }
-//
-//    return $alternativeScores;
+    array_multisort($alternativeScores, SORT_DESC, $alternativeIDs);
+    echo "<p><strong>Top Scores:</strong></p>";
+    foreach ($alternativeScores as $index => $score) {
+        $userId = $alternativeIDs[$index];
+        $userQuery = "SELECT name, email FROM users WHERE id = $userId";
+        $userResult = $conn->query($userQuery);
+        if ($userResult->num_rows > 0) {
+            $userRow = $userResult->fetch_assoc();
+            $userName = $userRow['name'];
+            $userEmail = $userRow['email'];
+
+            echo '<div style="border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin-bottom: 10px; display: flex;">';
+            echo '<div style="flex-grow: 1;">';
+            echo "<p><strong>User ID:</strong> $userId</p>";
+            echo "<p><strong>Name:</strong> $userName</p>";
+            echo "<p><strong>Email:</strong> $userEmail</p>";
+            echo "<p><strong>Score:</strong> $score</p>";
+            // Add "View Profile" button
+//            echo $userId;
+            echo '<button class="btn" onclick="location.href=`studentProfile.php?user_id=' . $userId . '`">View Profile</button>';
+            echo '</div>';
+            echo '</div>';
+        }
+    }
+
+    return $alternativeScores;
 }
 
-$alternativeScores = calculateAHP($userProficiencyData, $companyData, $userIds, $conn);
+$alternativeScores = calculateAHP($companyPreferencesData, $userProficiencyData, $CIids, $conn);
 ?>
 
 <!DOCTYPE html>

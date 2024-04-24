@@ -8,7 +8,7 @@ $issetCompanyID = isset($_SESSION['company_id']);
 $profileInitial = '';
 $profilePicture = 'profile.jpg';
 
-$fromHome = 1;
+$fromInternships = 1;
 
 if ($issetUserID) {
     $user_id = $_SESSION['user_id'];
@@ -40,11 +40,7 @@ if ($issetUserID) {
     }
 }
 
-$sql = "SELECT * FROM internshipCard ORDER BY id DESC LIMIT 6";
-$result = $conn->query($sql);
-
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -55,9 +51,11 @@ $result = $conn->query($sql);
     <!-- jQuery and Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Bruno+Ace+SC&family=Bungee+Hairline&family=Flavors&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
+
     <!-- Custom CSS to shift profile picture to the left -->
     <style>
         /* Shift the profile picture to the left */
@@ -85,20 +83,39 @@ $result = $conn->query($sql);
             background-color: white;
             color: deepskyblue;
         }
+        /* Search and filter form styling */
+        .search-form {
+            margin-top: 100px; /* Adjust margin to account for the navbar */
+        }
+        .search-form input,
+        .search-form select {
+            margin-right: 10px;
+        }
+        .internship-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: box-shadow 0.3s ease, color 0.3s ease;
+        }
+        .internship-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 50px deepskyblue;
+            border-color: deepskyblue;
+        }
     </style>
 </head>
 
 <body>
-
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: navy">
-    <a class="navbar-brand" href="#" style="font-family: Anton, sans-serif; font-size: 50px;"><span style="color: deepskyblue">INTERNSHIP</span>MENT</a>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: navy">
+    <a class="navbar-brand" href="#" style="font-family: Anton, sans-serif; font-size: 50px;"><span style="color: deepskyblue">INTERNSHIP</span>S</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <?php if (!$issetUserID && !$issetCompanyID): ?>
-            <!-- (login, register, dashboard) menu on the right end of the navbar -->
+            <!-- Login, register, dashboard menu on the right end of the navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Login dropdown -->
                 <li class="nav-item dropdown">
@@ -122,8 +139,8 @@ $result = $conn->query($sql);
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="internships.php" role="button" aria-expanded="false" style="font-family: Anton, sans-serif; font-size: 30px;">
-                        INTERNSHIPS
+                    <a class="nav-link" href="tempIndex.php" role="button" aria-expanded="false" style="font-family: Anton, sans-serif; font-size: 30px;">
+                        HOME
                     </a>
                 </li>
             </ul>
@@ -153,100 +170,74 @@ $result = $conn->query($sql);
                         <a class="dropdown-item" href="logout.php">Logout</a>
                     </div>
                 </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="internships.php" role="button" aria-expanded="false" style="font-family: Anton, sans-serif; font-size: 30px;">
-                        INTERNSHIPS
-                    </a>
-                </li>
             </ul>
         <?php endif; ?>
     </div>
 </nav>
 
-<br><br><br><br>
-
-<div class="container my-5">
-    <h2 class="text-center mb-4" style="font-family: Anton, sans-serif; font-size: 50px;">Make your dream internship a reality!</h2>
-
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://image.cnbcfm.com/api/v1/image/107135706-1666017748820-gettyimages-1325207070-3q4a0950.jpeg?v=1673025472&w=929&h=523&vtcrop=y" class="d-block w-100" alt="Image 1">
+<!-- Search and filter form -->
+<div class="container search-form">
+    <form method="POST" action="" id="filterForm">
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+                <input type="text" name="search_term" class="form-control" placeholder="Search by title or info">
             </div>
-            <div class="carousel-item">
-                <img src="https://miro.medium.com/v2/resize:fit:852/0*7EQMOXXRo93K1vc6.jpg" class="d-block w-100" alt="Image 2">
+            <div class="col-md-2 mb-3">
+                <input type="number" name="stipend" class="form-control" placeholder="Stipend (Min)">
             </div>
-            <div class="carousel-item">
-                <img src="https://cdn.pixabay.com/photo/2019/01/19/19/22/recruitment-3942378_640.jpg" class="d-block w-100" alt="Image 3">
+            <div class="col-md-3 mb-3">
+                <input type="text" name="location" class="form-control" placeholder="Location (City, State, Country)">
+            </div>
+            <div class="col-md-2 mb-3">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="col-md-2 mb-3">
+                <button type="submit" class="btn btn-primary">Filter</button>
+                <button type="button" class="btn btn-secondary btn-reset">Reset</button>
             </div>
         </div>
-
-        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
+    </form>
 </div>
 
-<br><hr><br>
-
-<div class="container my-5">
-    <h2 class="text-center mb-4" style="font-family: Anton, sans-serif; font-size: 50px;">Latest Internships</h2>
-
-    <!-- Bootstrap Grid -->
-    <div class="row">
-        <?php
-        // Initialize counter
-        $counter = 0;
-
-        // Loop through the fetched cards
-        while ($internship = $result->fetch_assoc()):
-            // If the counter is divisible by 3, start a new row
-            if ($counter % 3 == 0 && $counter > 0) {
-                echo '</div><div class="row">'; // Close current row and start a new one
-            }
-
-            $internship_id = htmlspecialchars($internship['id']);
-            $company_id = htmlspecialchars($internship['company_id']);
-
-            // Display the card
-            echo '<div class="col-md-4 mb-4">'; // Create a column
-            echo '<div class="card h-100">'; // Create a card
-            echo '<div class="card-body">';
-            echo '<h5 class="card-title">' . htmlspecialchars($internship['title']) . '</h5>';
-            echo '<hr>';
-            echo '<p><strong>Company ID:</strong> ' . htmlspecialchars($internship['company_id']) . '</p>';
-            echo '<p><strong>Start Date:</strong> ' . htmlspecialchars($internship['start_date']) . '</p>';
-            echo '<p><strong>Duration:</strong> ' . htmlspecialchars($internship['duration']) . '</p>';
-            echo '<p><strong>Registration Due Date:</strong> ' . htmlspecialchars($internship['registration_due_date']) . '</p>';
-            echo '<p><strong>Stipend:</strong> ' . htmlspecialchars($internship['stipend']) . '</p>';
-            echo '<p><strong>Subjects:</strong> ' . htmlspecialchars($internship['type']) . '</p>';
-
-            // Display buttons
-            echo '<a href="internshipdetails.php?id=' . $internship_id . '&company_id=' . $internship['company_id'] .'&fromHome=' . $fromHome .'" class="btn btn-info">View Details</a>';
-            if ($issetUserID) {
-                echo '<a href="applyInternship.php?internship_id=' . $internship_id . '&company_id=' . $company_id .'" class="btn btn-success ms-2">Apply</a>';
-            }
-
-            echo '</div>'; // Close card body
-            echo '</div>'; // Close card
-            echo '</div>'; // Close column
-
-            // Increment counter
-            $counter++;
-
-        endwhile;
-        ?>
-    </div>
-
+<!-- Internship cards -->
+<!-- Internship cards container -->
+<div class="container mt-4" id="internshipContainer">
+    <!-- Internship cards will be loaded here via AJAX -->
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        function loadInternships() {
+            $.ajax({
+                url: 'internship_display.php?<?php echo ($issetUserID ? "user_id=".$user_id : ($issetCompanyID ? "company_id=".$company_id : ""))?>', // URL to fetch internships
+                method: 'POST',
+                data: $('#filterForm').serialize(), // Form data for filtering
+                success: function(response) {
+                    $('#internshipContainer').html(response); // Load internships into container
+                },
+                error: function(xhr, status, error) {
+                    // Log any AJAX errors to the console
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+
+        // Load internships on page load
+        loadInternships();
+
+        // Submit form on filter button click
+        $('#filterForm').on('submit', function(e) {
+            e.preventDefault(); // Prevent default form submission
+            loadInternships(); // Load internships with filters
+        });
+
+        // Reset filters and reload internships
+        $('.btn-reset').on('click', function() {
+            $('#filterForm')[0].reset(); // Reset form
+            loadInternships(); // Load internships without filters
+        });
+    });
+</script>
+
 </body>
-
 </html>

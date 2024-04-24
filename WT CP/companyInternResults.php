@@ -92,7 +92,10 @@ function calculateAHP($userProficiency, $companyPreferences, $userIds, $conn) {
     }
 
     array_multisort($alternativeScores, SORT_DESC, $alternativeIDs);
-    echo "<p><strong>Top Scores:</strong></p>";
+    echo '<div class="container">'; // Add a container div to center the content
+    echo "<p style='font-family: Anton, sans-serif; font-size: 50px; color: navy; margin-top: -10px'><strong>Top Scores:</strong></p>";
+    $company_id = $_SESSION['company_id'];
+    $internship_id = $_SESSION['internship_id'];
     foreach ($alternativeScores as $index => $score) {
         $userId = $alternativeIDs[$index];
         $userQuery = "SELECT name, email FROM users WHERE id = $userId";
@@ -102,19 +105,22 @@ function calculateAHP($userProficiency, $companyPreferences, $userIds, $conn) {
             $userName = $userRow['name'];
             $userEmail = $userRow['email'];
 
-            echo '<div style="border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin-bottom: 10px; display: flex;">';
-            echo '<div style="flex-grow: 1;">';
+            echo '<div class="row justify-content-center mb-3">'; // Create a row for each card and center it
+            echo '<div class="col-md-6">'; // Center the card by using col-md-6
+            echo '<div class="card card-hover shadow-sm" style="border: 2px solid deepskyblue; border-radius: 10px;">';
+            echo '<div class="card-body">';
             echo "<p><strong>User ID:</strong> $userId</p>";
             echo "<p><strong>Name:</strong> $userName</p>";
             echo "<p><strong>Email:</strong> $userEmail</p>";
             echo "<p><strong>Score:</strong> $score</p>";
-            // Add "View Profile" button
-//            echo $userId;
-            echo '<button class="btn" onclick="location.href=`studentProfile.php?user_id=' . $userId . '`">View Profile</button>';
+            echo '<button class="btn btn-primary" id="primaryBtn" onclick="location.href=`studentProfile.php?user_id=' . $userId . '&internship_id=' . $internship_id . '&company_id=' . $company_id . '`">View Profile</button>';
             echo '</div>';
-            echo '</div>';
+            echo '</div>'; // Close card
+            echo '</div>'; // Close col-md-6
+            echo '</div>'; // Close row
         }
     }
+    echo '</div>'; // Close the container div
 
     return $alternativeScores;
 }
@@ -130,6 +136,9 @@ $alternativeScores = calculateAHP($userProficiencyData, $companyData, $userIds, 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Bruno+Ace+SC&family=Bungee+Hairline&family=Flavors&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -150,6 +159,47 @@ $alternativeScores = calculateAHP($userProficiencyData, $companyData, $userIds, 
         .btn:hover {
             background-color: #45a049;
         }
+        .card {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .card:hover {
+            transition: box-shadow 0.3s ease-in-out;
+            box-shadow: 0 0 50px deepskyblue;
+            border-color: deepskyblue;
+        }
+        #primaryBtn {
+            background-color: navy;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        #primaryBtn:hover {
+            background-color: white;
+            color: navy;
+        }
+        .btn-dash {
+            background-color: #ffd700;
+            color: #4f3c00;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-dash:hover {
+            background-color: #4f3c00;
+            color: #ffd700;
+        }
+        .btn-back {
+            background-color: navy;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-back:hover {
+            background-color: white;
+            color: navy;
+        }
     </style>
 </head>
 
@@ -160,11 +210,14 @@ $alternativeScores = calculateAHP($userProficiencyData, $companyData, $userIds, 
 <!--    <h3>Company Preferences</h3>-->
 <!--    <pre>--><?php //echo json_encode($companyData, JSON_PRETTY_PRINT); ?><!--</pre>-->
 <!--</div>-->
-    <div class="container">
-        <a href="companyDashboard.php" class="btn">Dashboard</a>
-        <br><br>
-        <a href="internshipdetails.php?id=<?php echo $internship_id; ?>" class="btn">Back</a>
+
+<div class="container my-3">
+    <div class="d-flex justify-content-center">
+        <a href="companyDashboard.php" class="btn btn-dash me-2">Dashboard</a>
+        <a href="internshipdetails.php?id=<?php echo $internship_id; ?>&company_id=<?php echo $company_id?>" class="btn btn-back">Back</a>
     </div>
+</div>
+
 </body>
 
 </html>

@@ -42,81 +42,60 @@ if ($resume_exists) {
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Resume Management</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .btn:hover {
-            background-color: #45a049;
-        }
-        .resume-info {
-            margin-left: 20px;
-            display: inline-block;
-            vertical-align: top;
-        }
-        .resume-link {
-            display: flex;
-            align-items: center;
-        }
-        .resume-link img {
-            width: 50px;  /* Adjust the width as desired */
-            height: 50px; /* Adjust the height as desired */
-            margin-right: 10px;
-        }
-    </style>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
 
-<div class="container">
-    <h2>Resume Management</h2>
-    <p>Welcome, <?php echo $name; ?>!</p>
-    <p>Manage your resume here:</p>
-
-    <div style="display: flex;">
-        <div>
-            <a href="upload_resume.php" class="btn">Upload/Edit Resume</a>
-            <br><br>
-            <a href="delete_resume.php" class="btn">Delete Resume</a>
-            <br><br>
-            <a href="dashboard.php" class="btn">Dashboard</a>
-            <br><br>
-        </div>
-        <div class="resume-info">
-            <?php if ($resume_exists): ?>
-                <div class="resume-link">
-                    <?php
-                    // Determine icon based on file extension
-                    if ($file_extension === 'pdf') {
-                        echo '<img src="Images/File%20Icons/pdf_icon.png" alt="PDF Icon">';
-                    } elseif ($file_extension === 'doc' || $file_extension === 'docx') {
-                        echo '<img src="Images/File%20Icons/word_icon.png" alt="Word Icon">';
-                    } else {
-                        echo '<img src="Images/File%20Icons/generic_file_icon.png" alt="File Icon">';
-                    }
-                    ?>
-                    <a href="<?php echo $resume_path; ?>" target="_blank"><?php echo $file_name; ?></a>
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title text-center">Resume Management</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <!-- Buttons -->
+                    <div class="d-grid gap-2">
+                        <a href="upload_resume.php" class="btn btn-primary">Upload/Edit Resume</a>
+                        <a href="delete_resume.php" class="btn btn-danger">Delete Resume</a>
+                        <a href="dashboard.php" class="btn btn-secondary">Back to Dashboard</a>
+                    </div>
                 </div>
-            <?php else: ?>
-                <p><?php echo $file_name; ?></p>
-            <?php endif; ?>
+                <div class="col-md-6">
+                    <!-- Resume information -->
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <h5 class="card-subtitle mb-3">Resume Status:</h5>
+                            <?php if ($resume_exists): ?>
+                                <div class="resume-info d-flex align-items-center">
+                                    <?php
+                                    // Determine icon based on file extension
+                                    if ($file_extension === 'pdf') {
+                                        echo '<img src="Images/File%20Icons/pdf_icon.png" alt="PDF Icon" class="img-fluid me-3" style="width: 50px; height: 50px;">';
+                                    } elseif ($file_extension === 'doc' || $file_extension === 'docx') {
+                                        echo '<img src="Images/File%20Icons/word_icon.png" alt="Word Icon" class="img-fluid me-3" style="width: 50px; height: 50px;">';
+                                    } else {
+                                        echo '<img src="Images/File%20Icons/generic_file_icon.png" alt="File Icon" class="img-fluid me-3" style="width: 50px; height: 50px;">';
+                                    }
+                                    ?>
+                                    <a href="<?php echo htmlspecialchars($resume_path); ?>" target="_blank" class="text-decoration-none"><?php echo htmlspecialchars($file_name); ?></a>
+                                </div>
+                            <?php else: ?>
+                                <div class="alert alert-warning">Resume not uploaded.</div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 </body>
+
 </html>
