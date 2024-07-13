@@ -117,4 +117,30 @@ Internshipment provides an essential service for both students and companies, fa
 
 # Contact Information
 
+For any questions or inquiries, please contact us:
 
+- **Team Members**:
+  - **Member 1**:
+    - Name: ***Aneesh Deshmukh***
+    - Email: [aneeshdeshmukh3@gmail.com](mailto:aneeshdeshmukh3@gmail.com)
+    - LinkedIn: [Member 1 LinkedIn](https://www.linkedin.com/in/member1profile)
+  
+  - **Member 2**:
+    - Name: Member 2 Name
+    - Email: [member2-email@example.com](mailto:member2-email@example.com)
+    - LinkedIn: [Member 2 LinkedIn](https://www.linkedin.com/in/member2profile)
+  
+  - **Member 3**:
+    - Name: Member 3 Name
+    - Email: [member3-email@example.com](mailto:member3-email@example.com)
+    - LinkedIn: [Member 3 LinkedIn](https://www.linkedin.com/in/member3profile)
+  
+  - **Member 4**:
+    - Name: Member 4 Name
+    - Email: [member4-email@example.com](mailto:member4-email@example.com)
+    - LinkedIn: [Member 4 LinkedIn](https://www.linkedin.com/in/member4profile)
+   
+  - **Member 5**:
+    - Name: Member 4 Name
+    - Email: [member4-email@example.com](mailto:member4-email@example.com)
+    - LinkedIn: [Member 4 LinkedIn](https://www.linkedin.com/in/member4profile)
