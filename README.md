@@ -121,9 +121,9 @@ For any questions or inquiries, please contact us:
 
 - **Team Members**:
   - **Member 1**:
-    - Name: ***Aneesh Deshmukh***
+    - Name: ***Aneesh Deshmukh***. That's me!
     - Email: [aneeshdeshmukh3@gmail.com](mailto:aneeshdeshmukh3@gmail.com)
-    - LinkedIn: [Member 1 LinkedIn](https://www.linkedin.com/in/member1profile)
+    - LinkedIn: [Member 1 LinkedIn](https://www.linkedin.com/in/aneesh-deshmukh-093144252/)
   
   - **Member 2**:
     - Name: Member 2 Name
