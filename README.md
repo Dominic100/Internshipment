@@ -8,9 +8,11 @@
 - [Acknowledgements](#acknowledgements)
 - [Contact Information](#contactinformation)
 
-# Decription
+# Description
 
 Internshipment is an innovative internship portal designed to bridge the gap between students seeking internships and employers looking for proficient candidates. Our platform offers a comprehensive set of features for both students and companies, ensuring a seamless and efficient experience for all users.
+
+# Features
 
 ## Features for Students
 
