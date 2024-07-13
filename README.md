@@ -60,3 +60,4 @@ Internshipment provides an essential service for both students and companies, fa
 
 - **Homepage**:
   ![Homepage](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(109).png)
+  ![Homepage](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(110).png)
