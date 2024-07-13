@@ -1,5 +1,7 @@
 # Internshipment - An Internship Portal
 
+***All code files are contained in WT CP directory***
+
 # Table of Contents
 
 - [Description](#description)
