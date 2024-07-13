@@ -127,20 +127,19 @@ For any questions or inquiries, please contact us:
   
   - **Member 2**:
     - Name: Anand Deshmukh
-    - Email: [member2-email@example.com](mailto:member2-email@example.com)
-    - LinkedIn: [Member 2 LinkedIn](https://www.linkedin.com/in/member2profile)
+    - Email: [anand.deshmukh22@vit.edu](mailto:anand.deshmukh22@vit.edu)
+    - LinkedIn: [Anand Deshmukh](https://www.linkedin.com/in/anand-deshmukh-586886258/)
   
   - **Member 3**:
     - Name: Ayush Gude
-    - Email: [member3-email@example.com](mailto:member3-email@example.com)
-    - LinkedIn: [Member 3 LinkedIn](https://www.linkedin.com/in/member3profile)
+    - Email: [ayush.gude22@vit.edu](mailto:ayush.gude22@vit.edu)
+    - LinkedIn: [Ayush Gude](https://www.linkedin.com/in/ayush-gude-9157052a8/)
   
   - **Member 4**:
     - Name: Gautam Warvatkar
-    - Email: [member4-email@example.com](mailto:member4-email@example.com)
-    - LinkedIn: [Member 4 LinkedIn](https://www.linkedin.com/in/member4profile)
+    - Email: [gautam.warvatkar22@vit.edu](mailto:gautam.warvatkar22@vit.edu)
+    - LinkedIn: [Gautam Warvatkar](https://www.linkedin.com/in/gautam-warvatkar-706b89136/)
    
   - **Member 5**:
     - Name: Shreyas Dhomane
-    - Email: [member4-email@example.com](mailto:member4-email@example.com)
-    - LinkedIn: [Member 4 LinkedIn](https://www.linkedin.com/in/member4profile)
+    - Email: [shreyas.dhomane22@vit.edu](mailto:shreyas.dhomane22@vit.edu)
