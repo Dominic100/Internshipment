@@ -5,7 +5,6 @@
 - [Description](#description)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Acknowledgements](#acknowledgements)
 - [Contact Information](#contactinformation)
 
 # Description
@@ -60,4 +59,62 @@ Internshipment provides an essential service for both students and companies, fa
 
 - **Homepage**:
   ![Homepage](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(109).png)
+  
   ![Homepage](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(110).png)
+
+- **Student Dashboard**: The dashboard for students to manage their profiles, resumes, and view recommended internships.
+  ![Student Dashboard](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(112).png)
+
+- **Student Test Section**:
+  ![Student Test Section](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(113).png)
+
+  ![Student Test Section](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(114).png)
+
+  ![Student Test Section](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(115).png)
+
+- **Student Resume Section**:
+  ![Student Resume Section](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(116).png)
+
+- **Student Profile**:
+  ![Student Profile](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(117).png)
+
+  ![Student Profile](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(118).png)
+
+- **Best Suited Internship Recommendations for Student**:
+  ![Internship Recommendations](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(119).png)
+
+- **Internship Details**:
+  ![Internship Details](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(120).png)
+
+- **Student Inbox**:
+  ![Student Inbox](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(121).png)
+
+- **Company Dashboard**:
+  ![Company Dashboard](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(122).png)
+
+- **Company Internships**: Company can post new internships, view posted internships, edit or delete internships.
+  ![Company Internships](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(123).png)
+
+  ![Company Internships](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(124).png)
+
+  ![Company Internships](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(125).png)
+
+  ![Company Internships](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(126).png)
+
+- **Company Internship Details**: For details of internships posted by the company, they are also allowed to view company intern details. This is basically a list of the best suited candidates.
+  ![Company Internship Details](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(127).png)
+
+  ![Company Internship Details](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(128).png)
+
+- **Student Profile from Company POV**: When a company views a student profile, they can 'approach' the student. This will send a message to the student's inbox.
+  ![C-Student Profile](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(130).png)
+
+- **Company Inbox**:
+  ![Company Inbox](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(129).png)
+
+- **Internship Search Page**:
+  ![Internship Search Page](https://github.com/Dominic100/Internshipment/blob/main/Website%20Screenshots/Screenshot%20(131).png)
+
+# Contact Information
+
+
